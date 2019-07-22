@@ -27,16 +27,15 @@ public class UserController {
         return this.userRepositoryJpa.findById(id).orElse(null);
     }
 
-    @Transactional(isolation = Isolation.REPEATABLE_READ,propagation = Propagation.REQUIRED)
+    @Transactional(isolation = Isolation.REPEATABLE_READ, propagation = Propagation.REQUIRED)
     @RequestMapping(value = "/add")
-    public void add(@RequestBody UserDO userDO) {
-//        UserDO userDO = new UserDO();
-        userDO.setPhonenumber("18809010904");
-        userDO.setPassword("123");
-        userDO.setSalt("123");
-//        userDO.setRegisterTime(new Date().getTime());
-        Date date = new Date();
-        date.setTime(0);
+    public void add( @RequestBody UserDO userDO) {
+//        userDO = new UserDO();
+//        userDO.setUsername("wmx02");
+//        userDO.setPhonenumber("18801010101");
+//        userDO.setPassword("123123");
+//        userDO.setSalt("111223");
+//        userDO.setRegisterTime(new Date());
         UserDO save = this.userRepositoryJpa.save(userDO);
     }
 }

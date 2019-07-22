@@ -31,7 +31,7 @@ public class UserDO implements Serializable {
 
     private Date updateTime;
 
-    private ZonedDateTime createTime;
+    private Date createTime;
 
 
     private Long testTime;
@@ -100,11 +100,11 @@ public class UserDO implements Serializable {
     }
 
 
-    public ZonedDateTime getCreateTime() {
+    public Date getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(ZonedDateTime createTime) {
+    public void setCreateTime(Date createTime) {
         this.createTime = createTime;
     }
 

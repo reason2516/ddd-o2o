@@ -55,7 +55,7 @@ public class UserDO implements Serializable{
     // 创建时间
     @CreatedDate
     @Column(name = "create_time")
-    private ZonedDateTime createTime;
+    private Date createTime;
 
     // 测试时间格式-专属字段
     @Column(name = "test_time")
@@ -125,11 +125,11 @@ public class UserDO implements Serializable{
     }
 
 
-    public ZonedDateTime getCreateTime() {
+    public Date getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(ZonedDateTime createTime) {
+    public void setCreateTime(Date createTime) {
         this.createTime = createTime;
     }
 
