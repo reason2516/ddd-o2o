@@ -1,20 +1,17 @@
-package com.wmx.o2o.serv.identity;
+package com.wmx.o2o.api.customer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 
 @SpringBootApplication
 @EnableEurekaClient
 @Configuration
-@EnableJpaAuditing
-public class ServIdentityApplication {
+public class ApiCustomerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServIdentityApplication.class, args);
+        SpringApplication.run(ApiCustomerApplication.class, args);
     }
-
 }

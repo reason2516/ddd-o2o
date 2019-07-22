@@ -1,64 +1,39 @@
-package com.wmx.o2o.serv.identity.infrastructure.dao.entity;
-import java.io.Serializable;
-import javax.persistence.*;
+package com.wmx.o2o.api.customer.service.Identity.dto;
+
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import org.hibernate.annotations.DynamicUpdate;
-import org.hibernate.annotations.DynamicInsert;
-import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.LastModifiedDate;
-import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
+import java.io.Serializable;
 import java.time.ZonedDateTime;
 import java.util.Date;
 
-@Entity
-@DynamicInsert
-@DynamicUpdate
-@EntityListeners(AuditingEntityListener.class)
-@Table(name = "user")
-public class UserDO implements Serializable{
+public class UserDO implements Serializable {
 
   private static final long serialVersionUID = 1016358663479619840L;
 
-    // 自增id
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
+
     private Long id;
 
-    // 手机号码
-    @Column(name = "phonenumber")
+
     private String phonenumber;
 
-    // 用户名
-    @Column(name = "username")
     private String username;
 
-    // 密码
-    @Column(name = "password")
+
     private String password;
 
-    // 密码盐值
-    @Column(name = "salt")
+
     private String salt;
 
-    // 注册时间
-    @Column(name = "register_time")
+
     private Date registerTime;
 
-    // 更新时间
-    @LastModifiedDate
-    @Column(name = "update_time")
+
     private Date updateTime;
 
-    // 创建时间
-    @CreatedDate
-    @Column(name = "create_time")
     private ZonedDateTime createTime;
 
-    // 测试时间格式-专属字段
-    @Column(name = "test_time")
+
     private Long testTime;
 
 

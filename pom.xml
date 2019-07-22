@@ -27,8 +27,18 @@
     <modules>
         <module>infra-registry</module>
         <module>serv-identity</module>
+        <module>api-customer</module>
     </modules>
 
+    <dependencies>
+        <!--热部署等相关工具-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+    </dependencies>
     <!--依赖版本管理-->
     <dependencyManagement>
         <dependencies>
