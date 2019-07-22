@@ -3,6 +3,9 @@ package com.wmx.o2o.serv.identity.resource.controller;
 import com.wmx.o2o.serv.identity.infrastructure.dao.entity.UserDO;
 import com.wmx.o2o.serv.identity.infrastructure.dao.jpa.UserRepositoryJpa;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Isolation;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -24,6 +27,7 @@ public class UserController {
         return this.userRepositoryJpa.findById(id).orElse(null);
     }
 
+    @Transactional(isolation = Isolation.REPEATABLE_READ,propagation = Propagation.REQUIRED)
     @RequestMapping(value = "/add")
     public void add(@RequestBody UserDO userDO) {
 //        UserDO userDO = new UserDO();
