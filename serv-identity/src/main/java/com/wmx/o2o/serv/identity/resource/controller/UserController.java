@@ -29,7 +29,7 @@ public class UserController {
     @RequestMapping(value = "/get")
     public UserDO get(@RequestParam Long id) {
         UserDO userDO = this.userRepositoryJpa.findById(id).orElse(null);
-        userDO.setUsername(userDO.getUsername() + environment.getProperty("server.port"));
+        userDO.setUsername(userDO.getUsername() + environment.getProperty("server.port") + "-" + environment.getProperty("spring.profiles.active"));
         return userDO;
     }
 
