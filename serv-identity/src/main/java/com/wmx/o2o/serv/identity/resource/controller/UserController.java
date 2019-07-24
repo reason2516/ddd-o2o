@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
+import java.util.Random;
 
 @RestController
 @RequestMapping("/user")
@@ -27,7 +28,9 @@ public class UserController {
     private Environment environment;
 
     @RequestMapping(value = "/get")
-    public UserDO get(@RequestParam Long id) {
+    public UserDO get(@RequestParam Long id) throws InterruptedException {
+//        int i = new Random().nextInt(10000);
+//        Thread.sleep(i);
         UserDO userDO = this.userRepositoryJpa.findById(id).orElse(null);
         userDO.setUsername(userDO.getUsername() + environment.getProperty("server.port") + "-" + environment.getProperty("spring.profiles.active"));
         return userDO;
