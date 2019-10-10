@@ -21,6 +21,17 @@ public class UserController {
         return this.identityUserService.get(id);
     }
 
+    @RequestMapping("/test")
+    public UserDO test() {
+        UserDO userDO = new UserDO();
+        userDO.setUsername("wmx02");
+        userDO.setPhonenumber("18801010101");
+        userDO.setPassword("123123");
+        userDO.setSalt("111223");
+        userDO.setRegisterTime(new Date());
+        return userDO;
+    }
+
     @RequestMapping("/register")
     public void register() {
         UserDO userDO = new UserDO();
