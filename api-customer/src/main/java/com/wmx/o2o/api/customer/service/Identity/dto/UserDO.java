@@ -2,6 +2,7 @@ package com.wmx.o2o.api.customer.service.Identity.dto;
 
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.wmx.o2o.api.customer.common.enums.UserStatus;
 
 import java.io.Serializable;
 import java.time.ZonedDateTime;
@@ -15,6 +16,7 @@ public class UserDO implements Serializable {
     private String username;
     private String password;
     private String salt;
+    private UserStatus status;
     private Date registerTime;
     private Date updateTime;
     private Date createTime;
@@ -91,4 +93,15 @@ public class UserDO implements Serializable {
         this.createTime = createTime;
     }
 
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
+
+    public UserStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(UserStatus status) {
+        this.status = status;
+    }
 }

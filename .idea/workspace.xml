@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd73338-0257-4371-9fe7-81a327aed3f5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.resource/o2o_identity.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/dto/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/dto/UserDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/dao/entity/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/dao/entity/UserDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/resource/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/resource/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,20 +67,9 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>eureka</find>
-      <find>eureka.instance.lease-renewal-interval-in-seconds</find>
-      <find>eureka.client.registry-fetch-interval-seconds</find>
-      <find>eureka.client.service-url.defaultZone</find>
-      <find>registry01</find>
-      <find>server</find>
-      <find>registry02</find>
-      <find>-D</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,23 +104,24 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.resource" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/springmvc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/springmvc" />
       <recent name="$PROJECT_DIR$/.resource" />
       <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\resources" />
       <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\java\com\wmx\o2o\infra\registry" />
       <recent name="C:\project\project_java\o2o-parent\api-customer" />
-      <recent name="C:\project\project_java\o2o-parent\api-customer\src\main\java\com\wmx\o2o\api\customer\service\Identity\impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wmx.o2o.common.converters.jackson" />
       <recent name="com.wmx.o2o.api.customer" />
       <recent name="com.wmx.o2o.api.customer.service.Identity.dto" />
     </key>
@@ -254,7 +245,7 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@38d38be3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@edfcead4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@206ad69" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -278,7 +269,7 @@
       <workItem from="1563848767059" duration="29000" />
       <workItem from="1563848836142" duration="19000" />
       <workItem from="1563848875517" duration="14742000" />
-      <workItem from="1570712091924" duration="5576000" />
+      <workItem from="1570712091924" duration="13131000" />
     </task>
     <servers />
   </component>
@@ -295,103 +286,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>infra-registry</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="o2o-common" />
         <module name="infra-registry" />
         <module name="serv-identity" />
         <module name="api-customer" />
@@ -19,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-customer" options="-parameters" />
       <module name="infra-registry" options="-parameters" />
+      <module name="o2o-common" options="-parameters" />
       <module name="serv-identity" options="-parameters" />
     </option>
   </component>

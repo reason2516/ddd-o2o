@@ -28,6 +28,7 @@
         <module>infra-registry</module>
         <module>serv-identity</module>
         <module>api-customer</module>
+        <module>o2o-common</module>
     </modules>
 
     <dependencies>
