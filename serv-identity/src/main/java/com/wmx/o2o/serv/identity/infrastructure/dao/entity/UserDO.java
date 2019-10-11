@@ -57,10 +57,6 @@ public class UserDO implements Serializable{
     @Column(name = "create_time")
     private Date createTime;
 
-    // 测试时间格式-专属字段
-    @Column(name = "test_time")
-    private Long testTime;
-
 
     public Long getId() {
         return id;
@@ -133,13 +129,5 @@ public class UserDO implements Serializable{
         this.createTime = createTime;
     }
 
-
-    public Long getTestTime() {
-        return testTime;
-    }
-
-    public void setTestTime(Long testTime) {
-        this.testTime = testTime;
-    }
 
 }

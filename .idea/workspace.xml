@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd73338-0257-4371-9fe7-81a327aed3f5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.resource/o2o_identity.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ddd-o2o.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serv-identity/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/dto/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/dto/UserDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/dao/entity/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/dao/entity/UserDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/resource/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/resource/controller/UserController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +114,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.resource" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -126,19 +123,19 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.resource" />
       <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\resources" />
+      <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\java\com\wmx\o2o\infra\registry" />
+      <recent name="C:\project\project_java\o2o-parent\api-customer" />
+      <recent name="C:\project\project_java\o2o-parent\api-customer\src\main\java\com\wmx\o2o\api\customer\service\Identity\impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wmx.o2o.api.customer" />
       <recent name="com.wmx.o2o.api.customer.service.Identity.dto" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\resources" />
-      <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\java\com\wmx\o2o\infra\registry" />
-      <recent name="C:\project\project_java\o2o-parent\api-customer" />
-      <recent name="C:\project\project_java\o2o-parent\api-customer\src\main\java\com\wmx\o2o\api\customer\service\Identity\impl" />
-      <recent name="C:\project\project_java\o2o-parent\api-customer\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -259,11 +256,6 @@
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@38d38be3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@edfcead4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@38d38be3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@206ad69" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
           </expand>
           <select />
         </treeState>
@@ -286,7 +278,7 @@
       <workItem from="1563848767059" duration="29000" />
       <workItem from="1563848836142" duration="19000" />
       <workItem from="1563848875517" duration="14742000" />
-      <workItem from="1570712091924" duration="2154000" />
+      <workItem from="1570712091924" duration="5576000" />
     </task>
     <servers />
   </component>
@@ -303,6 +295,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

@@ -9,32 +9,15 @@ import java.util.Date;
 
 public class UserDO implements Serializable {
 
-  private static final long serialVersionUID = 1016358663479619840L;
-
-
+    private static final long serialVersionUID = 1016358663479619840L;
     private Long id;
-
-
     private String phonenumber;
-
     private String username;
-
-
     private String password;
-
-
     private String salt;
-
-
     private Date registerTime;
-
-
     private Date updateTime;
-
     private Date createTime;
-
-
-    private Long testTime;
 
 
     public Long getId() {
@@ -106,15 +89,6 @@ public class UserDO implements Serializable {
 
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
-    }
-
-
-    public Long getTestTime() {
-        return testTime;
-    }
-
-    public void setTestTime(Long testTime) {
-        this.testTime = testTime;
     }
 
 }
