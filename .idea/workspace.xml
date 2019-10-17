@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd73338-0257-4371-9fe7-81a327aed3f5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/ApiCustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/ApiCustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/common/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/common/config/web/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/dto/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/dto/UserDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-customer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,8 +66,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -147,7 +147,7 @@
     </option>
     <option name="contentProportion" value="0.21138212" />
   </component>
-  <component name="RunManager" selected="Spring Boot.InfraRegistryApp10001">
+  <component name="RunManager" selected="Spring Boot.ApiCustomerApp30001">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -236,16 +236,27 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
+        <option name="contentProportion" value="0.14742547" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@38d38be3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b8053afa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@38d38be3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@206ad69" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b8053afa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@93053614" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b8053afa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c96773d0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b8053afa" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3729b14b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -269,7 +280,8 @@
       <workItem from="1563848767059" duration="29000" />
       <workItem from="1563848836142" duration="19000" />
       <workItem from="1563848875517" duration="14742000" />
-      <workItem from="1570712091924" duration="13131000" />
+      <workItem from="1570712091924" duration="19844000" />
+      <workItem from="1571025626211" duration="7803000" />
     </task>
     <servers />
   </component>
@@ -281,7 +293,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
