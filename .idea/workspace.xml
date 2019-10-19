@@ -2,24 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd73338-0257-4371-9fe7-81a327aed3f5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/common/config/web/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/common/enums/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/scheduleserv/ScheduleCron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o2o-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/jackson/EnumDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/jackson/EnumSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/springmvc/DateConverterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/springmvc/EnumConverterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.resource/o2o_identity.sql" beforeDir="false" afterPath="$PROJECT_DIR$/.resource/o2o_identity.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/ApiCustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/ApiCustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/dto/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/dto/UserDO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-customer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra-registry/src/main/java/com/wmx/o2o/infra/registry/InfraRegistryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/infra-registry/src/main/java/com/wmx/o2o/infra/registry/InfraRegistryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra-registry/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/infra-registry/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o2o-common/o2o-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/o2o-common/o2o-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/dao/entity/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/dao/entity/UserDO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/resource/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/resource/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serv-identity/src/main/resources/application-dev.properties" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/infra-registry/target/" />
-    <ignored path="$PROJECT_DIR$/identity-service/target/" />
-    <ignored path="$PROJECT_DIR$/serv-identity/target/" />
-    <ignored path="$PROJECT_DIR$/api-customer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/o2o_parent$InfraRegistryApplication.ic" NAME="InfraRegistryApplication Coverage Results" MODIFIED="1563522407417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -63,179 +79,25 @@
     </expand>
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ApiCustomerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/ApiCustomerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-registry01.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infra-registry/src/main/resources/application-registry01.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="45" selection-end-line="3" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnableFeignClients.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.2.RELEASE/spring-cloud-openfeign-core-2.1.2.RELEASE.jar!/org/springframework/cloud/openfeign/EnableFeignClients.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeignClientsRegistrar.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.2.RELEASE/spring-cloud-openfeign-core-2.1.2.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClientsRegistrar.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1638">
-              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infra-registry/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-dev.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infra-registry/src/main/resources/application-dev.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-start-column="1" selection-end-line="3" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api-customer/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/resource/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="32" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfraRegistryApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infra-registry/src/main/java/com/wmx/o2o/infra/registry/InfraRegistryApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-registry02.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/infra-registry/src/main/resources/application-registry02.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>eureka</find>
-      <find>eureka.instance.lease-renewal-interval-in-seconds</find>
-      <find>eureka.client.registry-fetch-interval-seconds</find>
-      <find>eureka.client.service-url.defaultZone</find>
-      <find>registry01</find>
-      <find>server</find>
-      <find>registry02</find>
-      <find>-D</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="D:/project/project_java/IDDD_Samples_by_laungcisin" value="PREVIEW" />
-        <entry key="D:/project/project_java/cqrs-microservice-sampler" value="PREVIEW" />
-      </map>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
     </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/infra-registry/src/main/java/com/wmx/o2o/registry/InfraRegistryApplication.java" />
-        <option value="$PROJECT_DIR$/identity-service/pom.xml" />
-        <option value="$PROJECT_DIR$/infra-registry/pom.xml" />
-        <option value="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/IdentityAppliation.java" />
-        <option value="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/dao/jpa/UserRepositoryJpa.java" />
-        <option value="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/IdentityApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/common/advcice/DefaultDateToNull.java" />
-        <option value="$PROJECT_DIR$/serv-identity/pom.xml" />
-        <option value="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/ServIdentityApplication.java" />
-        <option value="$PROJECT_DIR$/api-customer/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/dao/entity/UserDO.java" />
-        <option value="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/dto/UserDO.java" />
-        <option value="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/common/advcice/DateResponseBodyAdvice.java" />
-        <option value="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/User.java" />
-        <option value="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/impl/IdentityUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/api-customer/pom.xml" />
-        <option value="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/common/config/RibbonBean.java" />
-        <option value="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/IdentityUserService.java" />
-        <option value="$PROJECT_DIR$/serv-identity/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.resource/host" />
-        <option value="$PROJECT_DIR$/infra-registry/src/main/resources/application-registry01.properties" />
-        <option value="$PROJECT_DIR$/infra-registry/src/main/resources/application-registry02.properties" />
-        <option value="$PROJECT_DIR$/serv-identity/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/infra-registry/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/infra-registry/src/main/java/com/wmx/o2o/infra/registry/InfraRegistryApplication.java" />
-        <option value="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/ApiCustomerApplication.java" />
-        <option value="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/resource/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/infra-registry/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/api-customer/src/main/resources/application.properties" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -244,126 +106,12 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1S0swJoVc39DuQgjwXwg2aWQuXq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
-      <hideEmptyPackages ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ddd-o2o" type="58d84e3e:PackageViewProjectNode" />
-              <item name="api-customer" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="ddd-o2o" type="58d84e3e:PackageViewProjectNode" />
-              <item name="api-customer" type="616d4139:PackageViewModuleNode" />
-              <item name="com.wmx.o2o.api.customer" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ddd-o2o" type="58d84e3e:PackageViewProjectNode" />
-              <item name="infra-registry" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="ddd-o2o" type="58d84e3e:PackageViewProjectNode" />
-              <item name="infra-registry" type="616d4139:PackageViewModuleNode" />
-              <item name="com.wmx.o2o.infra.registry" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ddd-o2o" type="58d84e3e:PackageViewProjectNode" />
-              <item name="serv-identity" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="ddd-o2o" type="58d84e3e:PackageViewProjectNode" />
-              <item name="serv-identity" type="616d4139:PackageViewModuleNode" />
-              <item name="com.wmx.o2o.serv.identity" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="ddd-o2o" type="58d84e3e:PackageViewProjectNode" />
-              <item name="serv-identity" type="616d4139:PackageViewModuleNode" />
-              <item name="com.wmx.o2o.serv.identity" type="1f31426a:PackageElementNode" />
-              <item name="resource.controller" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ddd-o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddd-o2o" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddd-o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddd-o2o" type="462c0819:PsiDirectoryNode" />
-              <item name=".resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddd-o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddd-o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="infra-registry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddd-o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddd-o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="infra-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddd-o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddd-o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="infra-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddd-o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddd-o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="infra-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddd-o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddd-o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="infra-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="registry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ddd-o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ddd-o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="infra-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
@@ -374,28 +122,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/springmvc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.wmx.o2o.api.customer" />
-      <recent name="com.wmx.o2o.api.customer.service.Identity.dto" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/springmvc" />
+      <recent name="$PROJECT_DIR$/.resource" />
       <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\resources" />
       <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\java\com\wmx\o2o\infra\registry" />
       <recent name="C:\project\project_java\o2o-parent\api-customer" />
-      <recent name="C:\project\project_java\o2o-parent\api-customer\src\main\java\com\wmx\o2o\api\customer\service\Identity\impl" />
-      <recent name="C:\project\project_java\o2o-parent\api-customer\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wmx.o2o.common.converters.jackson" />
+      <recent name="com.wmx.o2o.api.customer" />
+      <recent name="com.wmx.o2o.api.customer.service.Identity.dto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -416,25 +165,19 @@
     </option>
     <option name="contentProportion" value="0.21138212" />
   </component>
-  <component name="RunManager" selected="Spring Boot.InfraRegistryApp10001">
+  <component name="RunManager" selected="Spring Boot.ApiCustomerApp30001">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ApiCustomerApp30001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api-customer" />
@@ -443,6 +186,9 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="InfraRegistryApp10001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="infra-registry" />
@@ -451,6 +197,9 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="InfraRegistryApp10002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="infra-registry" />
@@ -459,6 +208,9 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ServIdentityApp20001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="serv-identity" />
@@ -467,6 +219,9 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ServIdentityApp20002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="serv-identity" />
@@ -475,28 +230,18 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ServIdentityApp20001" />
@@ -505,6 +250,16 @@
       <item itemvalue="Spring Boot.InfraRegistryApp10001" />
       <item itemvalue="Spring Boot.InfraRegistryApp10002" />
     </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -522,537 +277,25 @@
       <workItem from="1563848767059" duration="29000" />
       <workItem from="1563848836142" duration="19000" />
       <workItem from="1563848875517" duration="14742000" />
+      <workItem from="1570712091924" duration="19844000" />
+      <workItem from="1571025626211" duration="7803000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52263000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-      <window_info id="Structure" order="1" sideWeight="0.50054526" side_tool="true" weight="0.25266525" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3293348" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3293348" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.32824427" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32824427" />
-      <window_info anchor="bottom" id="Spring" order="12" weight="0.3293348" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32824427" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945474" visible="true" weight="0.26332623" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.50054526" side_tool="true" weight="0.25266525" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32995737" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Spring" order="0" weight="0.3293348" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.32824427" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3293348" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.3293348" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32995737" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="7" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/http/converter/json/AbstractJackson2HttpMessageConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="94" column="39" lean-forward="true" selection-start-line="94" selection-start-column="39" selection-end-line="94" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/http/converter/HttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/http/converter/AbstractHttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="198" column="21" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.9.RELEASE/spring-data-commons-2.1.9.RELEASE.jar!/org/springframework/data/web/ProjectingJackson2HttpMessageConverter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9.jar!/com/fasterxml/jackson/databind/annotation/JsonSerialize.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar!/com/fasterxml/jackson/annotation/JsonFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.9.RELEASE/spring-data-commons-2.1.9.RELEASE-sources.jar!/org/springframework/data/web/ProjectingJackson2HttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9-sources.jar!/com/fasterxml/jackson/databind/annotation/JsonSerialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="43" column="73" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar!/com/fasterxml/jackson/annotation/JsonGetter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/http/converter/json/AbstractJackson2HttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="69" column="58" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serv-identity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/ServIdentityApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="76" column="18" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/dao/entity/UserDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/java/lang/reflect/AccessibleObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/dto/UserDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="34" selection-start-column="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/common/advcice/DateResponseBodyAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.8.RELEASE/spring-tx-5.1.8.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/2.1.2.RELEASE/spring-cloud-starter-netflix-eureka-client-2.1.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix/2.1.2.RELEASE/spring-cloud-starter-netflix-2.1.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/impl/IdentityUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-openfeign/2.1.2.RELEASE/spring-cloud-starter-openfeign-2.1.2.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/common/config/RibbonBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.2.RELEASE/spring-cloud-openfeign-core-2.1.2.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-customer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-customer/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/IdentityUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.2.RELEASE/spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="492" column="19" selection-start-line="492" selection-start-column="19" selection-end-line="492" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.2.RELEASE/spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="303" column="6" lean-forward="true" selection-start-line="303" selection-start-column="6" selection-end-line="303" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.2.RELEASE/spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar!/META-INF/spring-autoconfigure-metadata.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.2.RELEASE/spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar!/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.2.RELEASE/spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar!/META-INF/additional-spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serv-identity/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.resource/host">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-customer/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.2.RELEASE/spring-cloud-netflix-eureka-client-2.1.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="854" column="16" selection-start-line="854" selection-start-column="16" selection-end-line="854" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.2.RELEASE/spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serv-identity/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="57" lean-forward="true" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infra-registry/src/main/java/com/wmx/o2o/infra/registry/InfraRegistryApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infra-registry/src/main/resources/application-registry01.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="45" selection-end-line="3" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infra-registry/src/main/resources/application-registry02.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.2.RELEASE/spring-cloud-openfeign-core-2.1.2.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClientsRegistrar.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1638">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.2.RELEASE/spring-cloud-openfeign-core-2.1.2.RELEASE.jar!/org/springframework/cloud/openfeign/EnableFeignClients.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/resource/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infra-registry/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/infra-registry/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="1" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/ApiCustomerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-customer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>infra-registry</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Date;
+import java.util.Objects;
 import java.util.Random;
 
 @RestController
@@ -29,9 +30,10 @@ public class UserController {
 
     @RequestMapping(value = "/get")
     public UserDO get(@RequestParam Long id) throws InterruptedException {
-//        int i = new Random().nextInt(10000);
-//        Thread.sleep(i);
         UserDO userDO = this.userRepositoryJpa.findById(id).orElse(null);
+        if(Objects.isNull(userDO)){
+            return null;
+        }
         userDO.setUsername(userDO.getUsername() + environment.getProperty("server.port") + "-" + environment.getProperty("spring.profiles.active"));
         return userDO;
     }
@@ -39,12 +41,6 @@ public class UserController {
     @Transactional(isolation = Isolation.REPEATABLE_READ, propagation = Propagation.REQUIRED)
     @RequestMapping(value = "/add")
     public void add(@RequestBody UserDO userDO) {
-//        userDO = new UserDO();
-//        userDO.setUsername("wmx02");
-//        userDO.setPhonenumber("18801010101");
-//        userDO.setPassword("123123");
-//        userDO.setSalt("111223");
-//        userDO.setRegisterTime(new Date());
-        UserDO save = this.userRepositoryJpa.save(userDO);
+        this.userRepositoryJpa.save(userDO);
     }
 }

@@ -28,8 +28,10 @@
         <module>infra-registry</module>
         <module>serv-identity</module>
         <module>api-customer</module>
+        <module>o2o-common</module>
     </modules>
 
+    <!--依赖管理-->
     <dependencies>
         <!--热部署等相关工具-->
         <dependency>
@@ -39,6 +41,7 @@
         </dependency>
 
     </dependencies>
+
     <!--依赖版本管理-->
     <dependencyManagement>
         <dependencies>

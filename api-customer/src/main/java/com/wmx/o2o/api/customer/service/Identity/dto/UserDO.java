@@ -2,6 +2,7 @@ package com.wmx.o2o.api.customer.service.Identity.dto;
 
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.wmx.o2o.api.customer.common.enums.UserStatus;
 
 import java.io.Serializable;
 import java.time.ZonedDateTime;
@@ -9,32 +10,16 @@ import java.util.Date;
 
 public class UserDO implements Serializable {
 
-  private static final long serialVersionUID = 1016358663479619840L;
-
-
+    private static final long serialVersionUID = 1016358663479619840L;
     private Long id;
-
-
     private String phonenumber;
-
     private String username;
-
-
     private String password;
-
-
     private String salt;
-
-
+    private UserStatus status;
     private Date registerTime;
-
-
     private Date updateTime;
-
     private Date createTime;
-
-
-    private Long testTime;
 
 
     public Long getId() {
@@ -108,13 +93,15 @@ public class UserDO implements Serializable {
         this.createTime = createTime;
     }
 
-
-    public Long getTestTime() {
-        return testTime;
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
     }
 
-    public void setTestTime(Long testTime) {
-        this.testTime = testTime;
+    public UserStatus getStatus() {
+        return status;
     }
 
+    public void setStatus(UserStatus status) {
+        this.status = status;
+    }
 }
