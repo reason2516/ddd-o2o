@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd73338-0257-4371-9fe7-81a327aed3f5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/common/config/web/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/common/enums/UserStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/scheduleserv/ScheduleCron.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o2o-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/jackson/EnumDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/jackson/EnumSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/springmvc/DateConverterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/springmvc/EnumConverterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.resource/o2o_identity.sql" beforeDir="false" afterPath="$PROJECT_DIR$/.resource/o2o_identity.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/ApiCustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/ApiCustomerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/dto/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/dto/UserDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/scheduleserv/ScheduleCron.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/schedule/ScheduleDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-customer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o2o-common/o2o-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/o2o-common/o2o-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/dao/entity/UserDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/dao/entity/UserDO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/resource/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/resource/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serv-identity/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o2o-common/o2o-common.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,19 +43,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@192.168.56.101" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@192.168.56.101" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="o2o_identity: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@192.168.56.101" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="o2o_identity: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -122,7 +90,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/springmvc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/o2o-common" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -131,20 +99,23 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/springmvc" />
-      <recent name="$PROJECT_DIR$/.resource" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\resources" />
-      <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\java\com\wmx\o2o\infra\registry" />
-      <recent name="C:\project\project_java\o2o-parent\api-customer" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wmx.o2o.api.customer" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wmx.o2o.common.converters.jackson" />
       <recent name="com.wmx.o2o.api.customer" />
       <recent name="com.wmx.o2o.api.customer.service.Identity.dto" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/springmvc" />
+      <recent name="$PROJECT_DIR$/.resource" />
       <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\resources" />
+      <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\java\com\wmx\o2o\infra\registry" />
+      <recent name="C:\project\project_java\o2o-parent\api-customer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -254,8 +225,19 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
+        <option name="contentProportion" value="0.18202944" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@244a1c3e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@244a1c3e" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@92b4b9b5" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -279,6 +261,7 @@
       <workItem from="1563848875517" duration="14742000" />
       <workItem from="1570712091924" duration="19844000" />
       <workItem from="1571025626211" duration="7803000" />
+      <workItem from="1571497502359" duration="8438000" />
     </task>
     <servers />
   </component>

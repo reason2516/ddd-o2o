@@ -1,4 +1,4 @@
-package com.wmx.o2o.api.customer.scheduleserv;
+package com.wmx.o2o.api.customer.schedule;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,7 +6,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ScheduleCron {
+public class ScheduleDemo {
     public Logger logger = LoggerFactory.getLogger(getClass());
 
 //    @Scheduled(fixedDelay = 3000L)
@@ -25,7 +25,7 @@ public class ScheduleCron {
         logger.info("job02 is end   : {} ", System.currentTimeMillis());
     }
 
-    @Scheduled(cron = "*/1 * * * * *")
+//    @Scheduled(cron = "*/1 * * * * *")
     public void job03(){
         logger.info("job03 is begin : {} ", System.currentTimeMillis());
         try {

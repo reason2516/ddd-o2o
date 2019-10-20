@@ -1,6 +1,7 @@
 package com.wmx.o2o.api.customer.controller;
 
 import com.wmx.o2o.api.customer.common.enums.UserStatus;
+import com.wmx.o2o.api.customer.quartz.JobHandlerDemo;
 import com.wmx.o2o.api.customer.service.Identity.IdentityUserService;
 import com.wmx.o2o.api.customer.service.Identity.dto.UserDO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,10 +19,15 @@ public class UserController {
 
     @Autowired
     private IdentityUserService identityUserService;
+
     @Value("${test.value}")
     private String value;
+
     @Value("${test.value02}")
     private String value02;
+
+    @Autowired
+    private JobHandlerDemo jobHandlerDemo;
 
     @RequestMapping("/info")
     public UserDO info(@RequestParam Long id) {
@@ -51,6 +57,11 @@ public class UserController {
         map.put("value", value);
         map.put("value02", value02);
         return map;
+    }
+
+    @RequestMapping("/testQuartz")
+    public void testQuartz() {
+        jobHandlerDemo.testJobDemo();
     }
 
     @PostMapping("/register")
