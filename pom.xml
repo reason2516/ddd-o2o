@@ -29,6 +29,8 @@
         <module>serv-identity</module>
         <module>api-customer</module>
         <module>o2o-common</module>
+        <module>infra-upload</module>
+        <module>provider-user</module>
     </modules>
 
     <!--依赖管理-->

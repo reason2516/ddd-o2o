@@ -8,8 +8,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 
 @SpringBootApplication
-@EnableEurekaClient
 @Configuration
+@EnableEurekaClient
 @EnableJpaAuditing
 public class ServIdentityApplication {
 

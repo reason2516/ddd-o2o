@@ -2,14 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="o2o-common" />
-        <module name="infra-registry" />
+        <module name="provider-user-service" />
         <module name="serv-identity" />
         <module name="api-customer" />
+        <module name="infra-upload" />
+        <module name="provider-user-client" />
+        <module name="infra-registry" />
+        <module name="o2o-common" />
+        <module name="provider-user-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,7 +25,12 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-customer" options="-parameters" />
       <module name="infra-registry" options="-parameters" />
+      <module name="infra-upload" options="-parameters" />
       <module name="o2o-common" options="-parameters" />
+      <module name="provider-user" options="-parameters" />
+      <module name="provider-user-client" options="-parameters" />
+      <module name="provider-user-common" options="-parameters" />
+      <module name="provider-user-service" options="-parameters" />
       <module name="serv-identity" options="-parameters" />
     </option>
   </component>
