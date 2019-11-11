@@ -1,6 +1,6 @@
 package com.wmx.o2o.provider.user.service.domain.user;
 
-import com.wmx.o2o.provider.user.client.dto.command.UserRegisterCommand;
+import com.wmx.o2o.provider.user.client.pojos.command.UserRegisterCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,8 +17,8 @@ public class UserRegisterDomainService {
 
         // TODO 密码加密
         User user = new User();
-        user.setId(userRepository.nextId());
-        user.registerByPhoneNumber(command.getPhoneNumber(), command.getPassword());
+        user.registerByPhoneNumber(userRepository.nextId(), command.getPhoneNumber(), command.getPassword());
+
         return userRepository.save(user);
     }
 }

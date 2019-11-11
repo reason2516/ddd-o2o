@@ -18,4 +18,8 @@ public interface UserRepositoryJpa extends UserRepository, JpaRepository<User, S
 
     @Override
     boolean existsByPhoneNumber(String phoneNumber);
+
+    @Override
+    User findByPhoneNumber(String phoneNumber);
+
 }

@@ -1,0 +1,36 @@
+package com.wmx.o2o.provider.user.common.enums;
+
+import com.wmx.o2o.common.enums.BaseBizFieldEnum;
+
+/**
+ * 用户状态
+ */
+public enum UserStatusEnum implements BaseBizFieldEnum<Integer> {
+
+
+
+    NORMAL(1, "正常");
+
+    private int code;
+    private String description;
+
+    UserStatusEnum(Integer code, String description) {
+        this.code = code;
+        this.description = description;
+    }
+
+
+    @Override
+    public Integer getCode() {
+        return code;
+    }
+
+
+    @Override
+    public String getDescription() {
+        return description;
+    }
+
+
+
+}

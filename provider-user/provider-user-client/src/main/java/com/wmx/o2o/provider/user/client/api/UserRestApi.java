@@ -1,9 +1,9 @@
 package com.wmx.o2o.provider.user.client.api;
 
-import com.wmx.o2o.provider.user.client.dto.response.UserRegisterDTO;
-import com.wmx.o2o.provider.user.client.dto.command.UserRegisterCommand;
-import com.wmx.o2o.provider.user.client.dto.qo.ListUsersQO;
-import com.wmx.o2o.provider.user.client.dto.response.UserDTO;
+import com.wmx.o2o.provider.user.client.pojos.dto.UserRegisterDTO;
+import com.wmx.o2o.provider.user.client.pojos.command.UserRegisterCommand;
+import com.wmx.o2o.provider.user.client.pojos.qo.ListUsersQO;
+import com.wmx.o2o.provider.user.client.pojos.dto.UserDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

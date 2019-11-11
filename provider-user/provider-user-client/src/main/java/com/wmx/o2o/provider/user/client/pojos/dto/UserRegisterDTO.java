@@ -1,4 +1,4 @@
-package com.wmx.o2o.provider.user.client.dto.response;
+package com.wmx.o2o.provider.user.client.pojos.dto;
 
 import lombok.*;
 import lombok.experimental.Accessors;

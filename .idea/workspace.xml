@@ -3,13 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="dcd73338-0257-4371-9fe7-81a327aed3f5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/ServIdentityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/ServIdentityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/pojos/BaseQO.java" beforeDir="false" afterPath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/pojos/PageQO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/provider-user-client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/api/UserRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/api/UserRestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/dto/command/UserRegisterCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/command/UserRegisterCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/dto/qo/ListUsersQO.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/qo/ListUsersQO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/dto/response/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/dto/response/UserRegisterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/dto/UserRegisterDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-common/provider-user-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/UserQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/UserQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRegisterDomainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRegisterDomainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/UserRepositoryJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/UserRepositoryJpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +67,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -97,8 +111,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -108,23 +122,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wmx.o2o.provider.user.client.dto.command" />
+      <recent name="com.wmx.o2o.provider.user.service.infrastructure.repository.converters" />
       <recent name="com.wmx.o2o.common.pojos" />
       <recent name="com.wmx.o2o.provider.user.service.app" />
       <recent name="com.wmx.o2o.provider.user.service.domain.user" />
-      <recent name="com.wmx.o2o.provider.user.client.dto" />
-      <recent name="com.wmx.o2o.provider.user.client.dto.command" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wmx.o2o.provider.user.common" />
       <recent name="com.wmx.o2o.api.customer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.resource" />
       <recent name="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/serv-identity/src/main/resources" />
       <recent name="$PROJECT_DIR$/infra-upload/src/main/resources" />
       <recent name="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/springmvc" />
-      <recent name="$PROJECT_DIR$/.resource" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wmx.o2o.common.enums" />
       <recent name="com.wmx.o2o.common.converters.jackson" />
       <recent name="com.wmx.o2o.api.customer" />
       <recent name="com.wmx.o2o.api.customer.service.Identity.dto" />
@@ -322,11 +338,6 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d1780914" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@856c26c1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d1780914" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9ab343af" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
@@ -360,7 +371,9 @@
       <workItem from="1571025626211" duration="7803000" />
       <workItem from="1571497502359" duration="8438000" />
       <workItem from="1571817700771" duration="8478000" />
-      <workItem from="1572403718366" duration="25167000" />
+      <workItem from="1572403718366" duration="41878000" />
+      <workItem from="1572939680611" duration="2096000" />
+      <workItem from="1573461781628" duration="2738000" />
     </task>
     <servers />
   </component>

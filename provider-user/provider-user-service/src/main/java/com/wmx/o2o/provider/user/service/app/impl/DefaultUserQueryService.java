@@ -1,6 +1,6 @@
 package com.wmx.o2o.provider.user.service.app.impl;
 
-import com.wmx.o2o.provider.user.client.dto.qo.ListUsersQO;
+import com.wmx.o2o.provider.user.client.pojos.qo.ListUsersQO;
 import com.wmx.o2o.provider.user.service.app.UserQueryService;
 import com.wmx.o2o.provider.user.service.domain.user.User;
 import com.wmx.o2o.provider.user.service.infrastructure.repository.UserRepositoryJpa;

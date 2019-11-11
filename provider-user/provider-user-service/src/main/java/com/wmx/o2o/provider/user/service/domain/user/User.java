@@ -1,13 +1,14 @@
 package com.wmx.o2o.provider.user.service.domain.user;
 
 
+import com.wmx.o2o.provider.user.common.enums.UserStatusEnum;
+import com.wmx.o2o.provider.user.service.infrastructure.common.ddd.BaseDomainEntity;
+import com.wmx.o2o.provider.user.service.infrastructure.repository.converters.UserStatusConverter;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
-import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
@@ -24,7 +25,7 @@ import java.util.Date;
 @DynamicUpdate
 @EntityListeners(AuditingEntityListener.class)
 @Table(name = "user")
-public class User implements Serializable {
+public class User extends BaseDomainEntity implements Serializable {
 
     private static final long serialVersionUID = -5230908019247124358L;
 
@@ -47,25 +48,27 @@ public class User implements Serializable {
     @Column(name = "email")
     private String email;
 
+    @Column(name = "status")
+    @Convert(converter = UserStatusConverter.class)
+    private UserStatusEnum status;
+
     @Column(name = "register_time")
     private Date registerTime;
 
     @Column(name = "last_login_time")
     private Date lastLoginTime;
 
-    // 创建时间
-    @CreatedDate
-    @Column(name = "create_time")
-    private Date createTime;
-
-    // 更新时间
-    @LastModifiedDate
-    @Column(name = "update_time")
-    private Date updateTime;
-
-    public void registerByPhoneNumber(String phoneNumber, String password) {
-        setPhoneNumber(phoneNumber)
-                .setPhoneNumber(password)
+    /**
+     * 注册
+     *
+     * @param phoneNumber
+     * @param password
+     */
+    public void registerByPhoneNumber(String id, String phoneNumber, String password) {
+        setId(id)
+                .setPhoneNumber(phoneNumber)
+                .setStatus(UserStatusEnum.NORMAL)
+                .setPassword(password)
                 .setRegisterTime(new Date());
     }
 }
