@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class DefaultUserService implements UserService {
+
     @Autowired
     private UserRegisterDomainService userRegisterDomainService;
 

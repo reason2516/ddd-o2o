@@ -4,6 +4,7 @@ package com.wmx.o2o.provider.user.service.domain.user;
 import com.wmx.o2o.provider.user.common.enums.UserStatusEnum;
 import com.wmx.o2o.provider.user.service.infrastructure.common.ddd.BaseDomainEntity;
 import com.wmx.o2o.provider.user.service.infrastructure.repository.converters.UserStatusConverter;
+import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.Accessors;
@@ -15,9 +16,8 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
-
-@Getter
-@Setter
+@Getter(AccessLevel.PROTECTED)
+@Setter(AccessLevel.PROTECTED)
 @Accessors(chain = true)
 // jpa
 @Entity
@@ -25,13 +25,10 @@ import java.util.Date;
 @DynamicUpdate
 @EntityListeners(AuditingEntityListener.class)
 @Table(name = "user")
-public class User extends BaseDomainEntity implements Serializable {
+public class User extends BaseDomainEntity {
 
-    private static final long serialVersionUID = -5230908019247124358L;
-
-    @Id
-    @Column(name = "id")
-    private String id;
+    @EmbeddedId
+    private UserId id;
 
     @Column(name = "phone_number")
     private String phoneNumber;
@@ -64,11 +61,9 @@ public class User extends BaseDomainEntity implements Serializable {
      * @param phoneNumber
      * @param password
      */
-    public void registerByPhoneNumber(String id, String phoneNumber, String password) {
-        setId(id)
-                .setPhoneNumber(phoneNumber)
-                .setStatus(UserStatusEnum.NORMAL)
-                .setPassword(password)
-                .setRegisterTime(new Date());
+    public void registerByPhoneNumber(UserId id, String phoneNumber, String password) {
+        setId(id);
+        setPhoneNumber(phoneNumber);
+        setPassword(password);
     }
 }

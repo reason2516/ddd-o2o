@@ -9,7 +9,9 @@ public enum UserStatusEnum implements BaseBizFieldEnum<Integer> {
 
 
 
-    NORMAL(1, "正常");
+    NORMAL(1, "正常"),
+    DELETE(11, "删除"),
+    ;
 
     private int code;
     private String description;

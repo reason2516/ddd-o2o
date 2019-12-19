@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd73338-0257-4371-9fe7-81a327aed3f5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.resource/o2o_user.sql" beforeDir="false" afterPath="$PROJECT_DIR$/.resource/o2o_user.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e571ccaa-0e8f-4b9d-b450-f4c212b107a7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e571ccaa-0e8f-4b9d-b450-f4c212b107a7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o2o-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/o2o-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/qo/ListUsersQO.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/qo/ListUsersQO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-common/src/main/java/com/wmx/o2o/provider/user/common/enums/UserStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-common/src/main/java/com/wmx/o2o/provider/user/common/enums/UserStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/common/ddd/BaseDomainEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/common/ddd/BaseDomainEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/UserRepositoryJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/UserRepositoryJpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,12 +58,16 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ddd-o2o" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -90,33 +110,42 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.resource" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/dsl" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.wmx.o2o.provider.user.client.dto.command" />
-      <recent name="com.wmx.o2o.provider.user.service.infrastructure.repository.converters" />
-      <recent name="com.wmx.o2o.common.pojos" />
-      <recent name="com.wmx.o2o.provider.user.service.app" />
+      <recent name="com.wmx.o2o.provider.user.service.domain.role" />
       <recent name="com.wmx.o2o.provider.user.service.domain.user" />
+      <recent name="com.wmx.o2o.provider.user.service.app" />
+      <recent name="com.wmx.o2o.provider.user.service.infrastructure.common" />
+      <recent name="com.wmx.o2o.provider.user.client.dto.command" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.wmx.o2o.provider.user.service.app.impl" />
+      <recent name="com.wmx.o2o.provider.user.service.domain.user" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wmx.o2o.provider.user.common" />
       <recent name="com.wmx.o2o.api.customer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/dsl" />
       <recent name="$PROJECT_DIR$/.resource" />
       <recent name="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/serv-identity/src/main/resources" />
       <recent name="$PROJECT_DIR$/infra-upload/src/main/resources" />
-      <recent name="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/springmvc" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wmx.o2o.common.enums" />
@@ -146,7 +175,7 @@
     </option>
     <option name="contentProportion" value="0.21138212" />
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="JUnit.DefaultUserServiceTest.register">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -181,6 +210,23 @@
       <option name="PACKAGE_NAME" value="com.wmx.o2o.infra.upload.service" />
       <option name="MAIN_CLASS_NAME" value="com.wmx.o2o.infra.upload.service.DefaultQiNiuUploadServiceTest" />
       <option name="METHOD_NAME" value="testUploadFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultUserServiceTest.register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="provider-user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wmx.o2o.provider.user.service.app.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wmx.o2o.provider.user.service.app.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.wmx.o2o.provider.user.service.app.impl.DefaultUserServiceTest" />
+      <option name="METHOD_NAME" value="register" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -295,9 +341,11 @@
       <item itemvalue="Spring Boot.InfraRegistryApp10002" />
       <item itemvalue="Spring Boot.InfraUploadApp10021" />
       <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="JUnit.DefaultUserServiceTest.register" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DefaultUserServiceTest.register" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="JUnit.DefaultQiNiuUploadServiceTest.testUploadFile" />
         <item itemvalue="JUnit.DefaultQiNiuUploadServiceTest.testUpToken" />
@@ -312,17 +360,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d1780914" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2c22d04f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d1780914" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9ab343af" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d1780914" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@56e4245c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2c22d04f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2d6186cf" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -352,7 +395,16 @@
       <workItem from="1571817700771" duration="8478000" />
       <workItem from="1572403718366" duration="41878000" />
       <workItem from="1572939680611" duration="2096000" />
-      <workItem from="1573461781628" duration="2923000" />
+      <workItem from="1573461781628" duration="7352000" />
+      <workItem from="1573642487968" duration="573000" />
+      <workItem from="1574233975895" duration="796000" />
+      <workItem from="1574317607277" duration="8622000" />
+      <workItem from="1574916431128" duration="3005000" />
+      <workItem from="1574919666541" duration="22980000" />
+      <workItem from="1575366363902" duration="1796000" />
+      <workItem from="1575958205392" duration="477000" />
+      <workItem from="1576051457189" duration="3379000" />
+      <workItem from="1576731392195" duration="6540000" />
     </task>
     <servers />
   </component>

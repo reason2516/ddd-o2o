@@ -9,5 +9,6 @@ import lombok.experimental.Accessors;
 @Setter
 @Accessors(chain = true)
 public class ListUsersQO extends BaseQO {
+    private String username;
     private String phoneNumber;
 }
