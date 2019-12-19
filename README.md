@@ -1,4 +1,3 @@
 模块：
 ````
-infra-registry:注册中心（eureka）
-first
+infra-registry:注册中心（eureka） 
