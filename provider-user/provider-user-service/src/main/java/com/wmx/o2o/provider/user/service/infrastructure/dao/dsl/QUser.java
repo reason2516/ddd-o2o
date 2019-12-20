@@ -7,6 +7,7 @@ import com.querydsl.core.types.dsl.*;
 import com.querydsl.core.types.PathMetadata;
 import javax.annotation.Generated;
 import com.querydsl.core.types.Path;
+import com.wmx.o2o.provider.user.common.enums.UserStatus;
 import com.wmx.o2o.provider.user.service.domain.user.User;
 
 
@@ -34,7 +35,7 @@ public class QUser extends EntityPathBase<User> {
 
     public final StringPath salt = createString("salt");
 
-    public final EnumPath<com.wmx.o2o.provider.user.common.enums.UserStatusEnum> status = createEnum("status", com.wmx.o2o.provider.user.common.enums.UserStatusEnum.class);
+    public final EnumPath<UserStatus> status = createEnum("status", UserStatus.class);
 
     public final StringPath username = createString("username");
 

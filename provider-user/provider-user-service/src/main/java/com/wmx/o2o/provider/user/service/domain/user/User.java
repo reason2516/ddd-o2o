@@ -1,7 +1,7 @@
 package com.wmx.o2o.provider.user.service.domain.user;
 
 
-import com.wmx.o2o.provider.user.common.enums.UserStatusEnum;
+import com.wmx.o2o.provider.user.common.enums.UserStatus;
 import com.wmx.o2o.provider.user.service.infrastructure.common.ddd.BaseDomainEntity;
 import com.wmx.o2o.provider.user.service.infrastructure.repository.converters.UserStatusConverter;
 import lombok.AccessLevel;
@@ -13,7 +13,6 @@ import org.hibernate.annotations.DynamicUpdate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.Date;
 
 @Getter(AccessLevel.PROTECTED)
@@ -47,7 +46,7 @@ public class User extends BaseDomainEntity {
 
     @Column(name = "status")
     @Convert(converter = UserStatusConverter.class)
-    private UserStatusEnum status;
+    private UserStatus status;
 
     @Column(name = "register_time")
     private Date registerTime;

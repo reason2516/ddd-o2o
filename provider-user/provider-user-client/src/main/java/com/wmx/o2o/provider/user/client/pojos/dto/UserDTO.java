@@ -1,6 +1,6 @@
 package com.wmx.o2o.provider.user.client.pojos.dto;
 
-import com.wmx.o2o.provider.user.common.enums.UserStatusEnum;
+import com.wmx.o2o.provider.user.common.enums.UserStatus;
 import lombok.*;
 import lombok.experimental.Accessors;
 
@@ -19,7 +19,7 @@ public class UserDTO {
 
     private String email;
 
-    private UserStatusEnum status;
+    private UserStatus status;
 
     private Date registerTime;
 

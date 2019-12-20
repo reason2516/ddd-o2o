@@ -5,9 +5,7 @@ import com.wmx.o2o.common.enums.BaseBizFieldEnum;
 /**
  * 用户状态
  */
-public enum UserStatusEnum implements BaseBizFieldEnum<Integer> {
-
-
+public enum UserStatus implements BaseBizFieldEnum<Integer> {
 
     NORMAL(1, "正常"),
     DELETE(11, "删除"),
@@ -16,7 +14,7 @@ public enum UserStatusEnum implements BaseBizFieldEnum<Integer> {
     private int code;
     private String description;
 
-    UserStatusEnum(Integer code, String description) {
+    UserStatus(Integer code, String description) {
         this.code = code;
         this.description = description;
     }

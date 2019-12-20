@@ -2,29 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd73338-0257-4371-9fe7-81a327aed3f5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e571ccaa-0e8f-4b9d-b450-f4c212b107a7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e571ccaa-0e8f-4b9d-b450-f4c212b107a7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o2o-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/o2o-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/qo/ListUsersQO.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/qo/ListUsersQO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-common/src/main/java/com/wmx/o2o/provider/user/common/enums/UserStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-common/src/main/java/com/wmx/o2o/provider/user/common/enums/UserStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-common/src/main/java/com/wmx/o2o/provider/user/common/enums/UserStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-common/src/main/java/com/wmx/o2o/provider/user/common/enums/UserStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/common/ddd/BaseDomainEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/common/ddd/BaseDomainEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/UserRepositoryJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/UserRepositoryJpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserId.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/dao/dsl/QUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/dao/dsl/QUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/converters/UserStatusConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/converters/UserStatusConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserServiceTest.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
@@ -67,8 +64,8 @@
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -101,37 +98,36 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/dsl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.wmx.o2o.provider.user.service.domain.role" />
-      <recent name="com.wmx.o2o.provider.user.service.domain.user" />
-      <recent name="com.wmx.o2o.provider.user.service.app" />
-      <recent name="com.wmx.o2o.provider.user.service.infrastructure.common" />
-      <recent name="com.wmx.o2o.provider.user.client.dto.command" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.wmx.o2o.provider.user.service.app.impl" />
       <recent name="com.wmx.o2o.provider.user.service.domain.user" />
+      <recent name="com.wmx.o2o.provider.user.service.app.impl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -139,6 +135,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wmx.o2o.provider.user.common" />
       <recent name="com.wmx.o2o.api.customer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/dsl" />
@@ -153,8 +152,12 @@
       <recent name="com.wmx.o2o.api.customer" />
       <recent name="com.wmx.o2o.api.customer.service.Identity.dto" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wmx.o2o.provider.user.service.domain.role" />
+      <recent name="com.wmx.o2o.provider.user.service.domain.user" />
+      <recent name="com.wmx.o2o.provider.user.service.app" />
+      <recent name="com.wmx.o2o.provider.user.service.infrastructure.common" />
+      <recent name="com.wmx.o2o.provider.user.client.dto.command" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -163,19 +166,8 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-    <option name="contentProportion" value="0.21138212" />
   </component>
-  <component name="RunManager" selected="JUnit.DefaultUserServiceTest.register">
+  <component name="RunManager" selected="JUnit.UserRepositoryTest.saveTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -227,6 +219,23 @@
       <option name="PACKAGE_NAME" value="com.wmx.o2o.provider.user.service.app.impl" />
       <option name="MAIN_CLASS_NAME" value="com.wmx.o2o.provider.user.service.app.impl.DefaultUserServiceTest" />
       <option name="METHOD_NAME" value="register" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="provider-user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wmx.o2o.provider.user.service.domain.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wmx.o2o.provider.user.service.domain.user" />
+      <option name="MAIN_CLASS_NAME" value="com.wmx.o2o.provider.user.service.domain.user.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="saveTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -334,6 +343,7 @@
     <list>
       <item itemvalue="JUnit.DefaultQiNiuUploadServiceTest.testUploadFile" />
       <item itemvalue="JUnit.DefaultQiNiuUploadServiceTest.testUpToken" />
+      <item itemvalue="JUnit.DefaultUserServiceTest.register" />
       <item itemvalue="Spring Boot.ServIdentityApp20001" />
       <item itemvalue="Spring Boot.ServIdentityApp20002" />
       <item itemvalue="Spring Boot.ApiCustomerApp30001" />
@@ -341,10 +351,11 @@
       <item itemvalue="Spring Boot.InfraRegistryApp10002" />
       <item itemvalue="Spring Boot.InfraUploadApp10021" />
       <item itemvalue="Spring Boot.UserApplication" />
-      <item itemvalue="JUnit.DefaultUserServiceTest.register" />
+      <item itemvalue="JUnit.UserRepositoryTest.saveTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRepositoryTest.saveTest" />
         <item itemvalue="JUnit.DefaultUserServiceTest.register" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="JUnit.DefaultQiNiuUploadServiceTest.testUploadFile" />
@@ -353,24 +364,15 @@
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <option name="contentProportion" value="0.17831978" />
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2c22d04f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2c22d04f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2d6186cf" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -404,7 +406,8 @@
       <workItem from="1575366363902" duration="1796000" />
       <workItem from="1575958205392" duration="477000" />
       <workItem from="1576051457189" duration="3379000" />
-      <workItem from="1576731392195" duration="6540000" />
+      <workItem from="1576731392195" duration="7191000" />
+      <workItem from="1576838760631" duration="3830000" />
     </task>
     <servers />
   </component>
@@ -423,5 +426,55 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="396" y="156" key="#Inspections" timestamp="1576838993791">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="396" y="156" key="#Inspections/0.23.1792.1097@0.23.1792.1097" timestamp="1576838993791" />
+    <state x="665" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1576841858942">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="665" y="222" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1576841858942" />
+    <state width="1740" height="720" key="GridCell.Tab.0.bottom" timestamp="1576842118423">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1740" height="720" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1576842118423" />
+    <state width="1740" height="720" key="GridCell.Tab.0.center" timestamp="1576842118422">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1740" height="720" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1576842118422" />
+    <state width="1740" height="720" key="GridCell.Tab.0.left" timestamp="1576842118422">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1740" height="720" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1576842118422" />
+    <state width="1740" height="720" key="GridCell.Tab.0.right" timestamp="1576842118423">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1740" height="720" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1576842118423" />
+    <state x="296" y="123" key="SettingsEditor" timestamp="1576860191075">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="296" y="123" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1576860191075" />
+    <state x="558" y="248" width="681" height="655" key="StructurePopup" timestamp="1576860117028">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="558" y="248" width="681" height="655" key="StructurePopup/0.23.1792.1097@0.23.1792.1097" timestamp="1576860117028" />
+    <state width="663" height="614" key="SwitcherDM" timestamp="1576841649599">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="663" height="614" key="SwitcherDM/0.23.1792.1097@0.23.1792.1097" timestamp="1576841649599" />
+    <state x="559" y="280" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576841867929">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="559" y="280" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1576841867929" />
+    <state x="739" y="404" width="313" height="349" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1576860119292">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="739" y="404" width="313" height="349" key="jetbrains.javascript.buildTools.run-task-popup/0.23.1792.1097@0.23.1792.1097" timestamp="1576860119292" />
+    <state x="477" y="88" width="838" height="1032" key="search.everywhere.popup" timestamp="1576842125995">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="477" y="88" width="838" height="1032" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1576842125995" />
   </component>
 </project>

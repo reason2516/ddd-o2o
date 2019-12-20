@@ -1,13 +1,12 @@
 package com.wmx.o2o.provider.user.service.infrastructure.repository.converters;
 
-import com.wmx.o2o.common.enums.BaseBizFieldEnum;
-import com.wmx.o2o.provider.user.common.enums.UserStatusEnum;
+import com.wmx.o2o.provider.user.common.enums.UserStatus;
 
 import javax.persistence.AttributeConverter;
 
-public class UserStatusConverter implements AttributeConverter<UserStatusEnum, Integer> {
+public class UserStatusConverter implements AttributeConverter<UserStatus, Integer> {
     @Override
-    public Integer convertToDatabaseColumn(UserStatusEnum attribute) {
+    public Integer convertToDatabaseColumn(UserStatus attribute) {
         if (attribute == null) {
             return 0;
         }
@@ -15,13 +14,13 @@ public class UserStatusConverter implements AttributeConverter<UserStatusEnum, I
     }
 
     @Override
-    public UserStatusEnum convertToEntityAttribute(Integer dbData) {
+    public UserStatus convertToEntityAttribute(Integer dbData) {
         if (dbData == null || dbData == 0) {
             return null;
         }
 
-        UserStatusEnum[] values = UserStatusEnum.values();
-        for (UserStatusEnum value : values) {
+        UserStatus[] values = UserStatus.values();
+        for (UserStatus value : values) {
             if (value.getCode().equals(dbData)) {
                 return value;
             }
