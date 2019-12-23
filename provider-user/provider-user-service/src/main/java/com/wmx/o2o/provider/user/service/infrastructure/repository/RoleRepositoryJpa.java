@@ -22,8 +22,8 @@ public interface RoleRepositoryJpa extends RoleRepository, JpaRepository<Role, S
     @Override
     Role save(Role role);
 
+
     @SuppressWarnings("NullableProblems")
     @Override
     Optional<Role> findById(String id);
-
 }

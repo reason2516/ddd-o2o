@@ -10,7 +10,7 @@ import java.util.Optional;
 import java.util.Random;
 
 @Repository
-public interface UserRepositoryJpa extends UserRepository, JpaRepository<User, String> {
+public interface UserRepositoryJpa extends UserRepository, JpaRepository<User, UserId> {
     String UID_PREFIX = "UID";
 
     @Override
@@ -26,5 +26,5 @@ public interface UserRepositoryJpa extends UserRepository, JpaRepository<User, S
 
     @Override
     @SuppressWarnings("NullableProblems")
-    Optional<User> findById(String id);
+    Optional<User> findById(UserId id);
 }

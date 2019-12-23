@@ -12,6 +12,6 @@ public interface UserRepository extends BaseRepository<UserId> {
 
     Optional<User> findByPhoneNumber(String phoneNumber);
 
-    Optional<User> findById(String id);
+    Optional<User> findById(UserId id);
 
 }

@@ -1,14 +1,16 @@
 package com.wmx.o2o.provider.user.service.domain.user;
 
 import com.wmx.o2o.provider.user.client.beans.command.UserRegisterCommand;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class UserRegisterDomainService {
 
-    @Autowired
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
+
+    public UserRegisterDomainService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
 
     public User doRegister(UserRegisterCommand command) {
         if (userRepository.existsByPhoneNumber(command.getPhoneNumber())) {

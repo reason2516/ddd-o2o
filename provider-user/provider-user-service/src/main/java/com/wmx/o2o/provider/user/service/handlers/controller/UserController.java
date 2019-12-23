@@ -28,13 +28,16 @@ import java.util.Optional;
 @RequestMapping(UserRestApi.USER_MAPPING_PREFIX)
 public class UserController {
 
-    @Autowired
-    private UserService userService;
+    private final UserService userService;
 
-    @Autowired
-    private UserQueryService userQueryService;
+    private final UserQueryService userQueryService;
 
     private JPAQueryFactory jpaQueryFactory;
+
+    public UserController(UserService userService, UserQueryService userQueryService) {
+        this.userService = userService;
+        this.userQueryService = userQueryService;
+    }
 
     @GetMapping(UserRestApi.GET_USER_MAPPING)
     public UserDTO getUser(@NotNull(message = "用户id 不能为空")
@@ -75,9 +78,7 @@ public class UserController {
         Optional.ofNullable(qo.getPhoneNumber()).ifPresent(e -> query.where(user.phoneNumber.in(e)));
         Optional.ofNullable(qo.getUsername()).ifPresent(e -> query.where(user.username.eq(e)));
 
-        List<UserDTO> list = query.fetch();
-
-        return list;
+        return query.fetch();
     }
 
     @PostMapping(UserRestApi.REGISTER_MAPPING)

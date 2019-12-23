@@ -2,7 +2,6 @@ package com.wmx.o2o.provider.user.service.domain.role;
 
 
 import com.wmx.o2o.provider.user.service.domain.user.User;
-import com.wmx.o2o.provider.user.service.domain.user.UserId;
 import com.wmx.o2o.provider.user.service.infrastructure.common.ddd.BaseDomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -15,7 +14,6 @@ import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
-import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
