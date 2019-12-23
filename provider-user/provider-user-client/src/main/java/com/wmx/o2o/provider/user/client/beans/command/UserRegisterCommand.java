@@ -1,4 +1,4 @@
-package com.wmx.o2o.provider.user.client.pojos.command;
+package com.wmx.o2o.provider.user.client.beans.command;
 
 
 import lombok.*;

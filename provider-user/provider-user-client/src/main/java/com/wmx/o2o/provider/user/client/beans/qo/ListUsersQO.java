@@ -1,4 +1,4 @@
-package com.wmx.o2o.provider.user.client.pojos.qo;
+package com.wmx.o2o.provider.user.client.beans.qo;
 
 import com.wmx.o2o.common.pojos.BaseQO;
 import lombok.Getter;

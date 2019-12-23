@@ -1,6 +1,6 @@
 package com.wmx.o2o.provider.user.service.app.impl;
 
-import com.wmx.o2o.provider.user.client.pojos.command.UserRegisterCommand;
+import com.wmx.o2o.provider.user.client.beans.command.UserRegisterCommand;
 import com.wmx.o2o.provider.user.service.app.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;

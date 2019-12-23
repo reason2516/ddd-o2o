@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd73338-0257-4371-9fe7-81a327aed3f5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e571ccaa-0e8f-4b9d-b450-f4c212b107a7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e571ccaa-0e8f-4b9d-b450-f4c212b107a7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/pojos/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-common/src/main/java/com/wmx/o2o/provider/user/common/enums/UserStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-common/src/main/java/com/wmx/o2o/provider/user/common/enums/UserStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserId.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/dao/dsl/QUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/dao/dsl/QUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/converters/UserStatusConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/converters/UserStatusConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/enums/BaseBizFieldEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/enums/BizField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-common/src/main/java/com/wmx/o2o/provider/user/common/enums/UserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-common/src/main/java/com/wmx/o2o/provider/user/common/enums/UserStatus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,6 +335,7 @@
       <item itemvalue="JUnit.DefaultQiNiuUploadServiceTest.testUploadFile" />
       <item itemvalue="JUnit.DefaultQiNiuUploadServiceTest.testUpToken" />
       <item itemvalue="JUnit.DefaultUserServiceTest.register" />
+      <item itemvalue="JUnit.UserRepositoryTest.saveTest" />
       <item itemvalue="Spring Boot.ServIdentityApp20001" />
       <item itemvalue="Spring Boot.ServIdentityApp20002" />
       <item itemvalue="Spring Boot.ApiCustomerApp30001" />
@@ -351,7 +343,6 @@
       <item itemvalue="Spring Boot.InfraRegistryApp10002" />
       <item itemvalue="Spring Boot.InfraUploadApp10021" />
       <item itemvalue="Spring Boot.UserApplication" />
-      <item itemvalue="JUnit.UserRepositoryTest.saveTest" />
     </list>
     <recent_temporary>
       <list>
@@ -407,7 +398,8 @@
       <workItem from="1575958205392" duration="477000" />
       <workItem from="1576051457189" duration="3379000" />
       <workItem from="1576731392195" duration="7191000" />
-      <workItem from="1576838760631" duration="3830000" />
+      <workItem from="1576838760631" duration="4234000" />
+      <workItem from="1576945521046" duration="1226000" />
     </task>
     <servers />
   </component>
@@ -436,22 +428,22 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="665" y="222" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1576841858942" />
-    <state width="1740" height="720" key="GridCell.Tab.0.bottom" timestamp="1576842118423">
+    <state width="1740" height="720" key="GridCell.Tab.0.bottom" timestamp="1576862283462">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1740" height="720" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1576842118423" />
-    <state width="1740" height="720" key="GridCell.Tab.0.center" timestamp="1576842118422">
+    <state width="1740" height="720" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1576862283462" />
+    <state width="1740" height="720" key="GridCell.Tab.0.center" timestamp="1576862283462">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1740" height="720" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1576842118422" />
-    <state width="1740" height="720" key="GridCell.Tab.0.left" timestamp="1576842118422">
+    <state width="1740" height="720" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1576862283462" />
+    <state width="1740" height="720" key="GridCell.Tab.0.left" timestamp="1576862283461">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1740" height="720" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1576842118422" />
-    <state width="1740" height="720" key="GridCell.Tab.0.right" timestamp="1576842118423">
+    <state width="1740" height="720" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1576862283461" />
+    <state width="1740" height="720" key="GridCell.Tab.0.right" timestamp="1576862283462">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1740" height="720" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1576842118423" />
+    <state width="1740" height="720" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1576862283462" />
     <state x="296" y="123" key="SettingsEditor" timestamp="1576860191075">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>

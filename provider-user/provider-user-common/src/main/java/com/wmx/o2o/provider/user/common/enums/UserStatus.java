@@ -1,11 +1,11 @@
 package com.wmx.o2o.provider.user.common.enums;
 
-import com.wmx.o2o.common.enums.BaseBizFieldEnum;
+import com.wmx.o2o.common.enums.BizField;
 
 /**
  * 用户状态
  */
-public enum UserStatus implements BaseBizFieldEnum<Integer> {
+public enum UserStatus implements BizField<Integer> {
 
     NORMAL(1, "正常"),
     DELETE(11, "删除"),
@@ -30,7 +30,4 @@ public enum UserStatus implements BaseBizFieldEnum<Integer> {
     public String getDescription() {
         return description;
     }
-
-
-
 }

@@ -1,6 +1,6 @@
 package com.wmx.o2o.provider.user.service.app.impl;
 
-import com.wmx.o2o.provider.user.client.pojos.command.RoleCreateCommand;
+import com.wmx.o2o.provider.user.client.beans.command.RoleCreateCommand;
 import com.wmx.o2o.provider.user.service.app.RoleService;
 import com.wmx.o2o.provider.user.service.domain.role.Role;
 import com.wmx.o2o.provider.user.service.domain.role.RoleRepository;

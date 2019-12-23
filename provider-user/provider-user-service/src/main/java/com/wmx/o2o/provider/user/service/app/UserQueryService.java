@@ -1,6 +1,6 @@
 package com.wmx.o2o.provider.user.service.app;
 
-import com.wmx.o2o.provider.user.client.pojos.qo.ListUsersQO;
+import com.wmx.o2o.provider.user.client.beans.qo.ListUsersQO;
 import com.wmx.o2o.provider.user.service.domain.user.User;
 
 import java.util.List;

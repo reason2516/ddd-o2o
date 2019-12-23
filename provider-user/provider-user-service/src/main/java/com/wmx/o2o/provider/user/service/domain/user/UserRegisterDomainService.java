@@ -1,6 +1,6 @@
 package com.wmx.o2o.provider.user.service.domain.user;
 
-import com.wmx.o2o.provider.user.client.pojos.command.UserRegisterCommand;
+import com.wmx.o2o.provider.user.client.beans.command.UserRegisterCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

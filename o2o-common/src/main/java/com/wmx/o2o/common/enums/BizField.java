@@ -1,6 +1,6 @@
 package com.wmx.o2o.common.enums;
 
-public interface BaseBizFieldEnum<T> {
+public interface BizField<T> {
     T getCode();
 
 //    void setCode(T code);
@@ -9,7 +9,7 @@ public interface BaseBizFieldEnum<T> {
 
 //    void setDescription(String description);
 
-    static BaseBizFieldEnum[] values() {
+    static BizField[] values() {
         return null;
     }
 }
