@@ -4,7 +4,6 @@ import com.querydsl.core.types.Projections;
 import com.querydsl.core.types.QBean;
 import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import com.wmx.o2o.provider.user.client.api.UserRestApi;
 import com.wmx.o2o.provider.user.client.beans.command.UserRegisterCommand;
 import com.wmx.o2o.provider.user.client.beans.qo.ListUsersQO;
 import com.wmx.o2o.provider.user.client.beans.dto.UserDTO;
@@ -25,7 +24,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(UserRestApi.USER_MAPPING_PREFIX)
+@RequestMapping("/user")
 public class UserController {
 
     private final UserService userService;
@@ -39,7 +38,7 @@ public class UserController {
         this.userQueryService = userQueryService;
     }
 
-    @GetMapping(UserRestApi.GET_USER_MAPPING)
+    @GetMapping("/getUser")
     public UserDTO getUser(@NotNull(message = "用户id 不能为空")
                            @RequestParam("id") String id) {
         User user = userQueryService.getUser(id);
@@ -48,7 +47,7 @@ public class UserController {
         return userDTO;
     }
 
-    @GetMapping(UserRestApi.LIST_USERS_MAPPING)
+    @GetMapping("/listUsers")
     public List<UserDTO> listUsers(@Validated @RequestBody ListUsersQO qo) {
 
         List<User> users = userQueryService.listUsers(qo);
@@ -81,7 +80,7 @@ public class UserController {
         return query.fetch();
     }
 
-    @PostMapping(UserRestApi.REGISTER_MAPPING)
+    @PostMapping("/register")
     public UserRegisterDTO register(@Validated @RequestBody UserRegisterCommand command) {
         UserRegisterDTO userRegisterDTO = new UserRegisterDTO();
         User user = userService.register(command);

@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dcd73338-0257-4371-9fe7-81a327aed3f5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserQueryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/role/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/role/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRegisterDomainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRegisterDomainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/api/UserRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/api/UserRestApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/RoleRepositoryJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/RoleRepositoryJpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/UserRepositoryJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/UserRepositoryJpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +113,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -167,7 +158,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DefaultUserQueryServiceTest.getUser">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -408,7 +399,7 @@
       <workItem from="1576051457189" duration="3379000" />
       <workItem from="1576731392195" duration="7191000" />
       <workItem from="1576838760631" duration="4234000" />
-      <workItem from="1576945521046" duration="6102000" />
+      <workItem from="1576945521046" duration="10351000" />
     </task>
     <servers />
   </component>
@@ -457,10 +448,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1748" height="737" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1577096573412" />
-    <state x="296" y="123" key="SettingsEditor" timestamp="1577093520036">
+    <state x="296" y="123" key="SettingsEditor" timestamp="1577155078462">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="296" y="123" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1577093520036" />
+    <state x="296" y="123" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1577155078462" />
     <state x="558" y="248" width="681" height="655" key="StructurePopup" timestamp="1577096530820">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
