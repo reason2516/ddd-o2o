@@ -41,10 +41,13 @@ public class UserController {
     @GetMapping("/getUser")
     public UserDTO getUser(@NotNull(message = "用户id 不能为空")
                            @RequestParam("id") String id) {
-        User user = userQueryService.getUser(id);
-        UserDTO userDTO = new UserDTO();
-        BeanUtils.copyProperties(user, userDTO);
-        return userDTO;
+        return Optional.ofNullable(userQueryService.getUser(id))
+                .map(e -> {
+                    UserDTO userDTO = new UserDTO();
+                    BeanUtils.copyProperties(e, userDTO);
+                    return userDTO;
+                }).orElse(null);
+
     }
 
     @GetMapping("/listUsers")
