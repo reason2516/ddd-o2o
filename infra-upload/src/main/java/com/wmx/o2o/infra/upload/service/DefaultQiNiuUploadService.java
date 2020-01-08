@@ -52,7 +52,7 @@ public class DefaultQiNiuUploadService {
         try {
             Response resp = manager.put(file, key, token);
             DefaultPutRet putRet = objectMapper.readValue(resp.bodyString(), DefaultPutRet.class);
-            url = domain +"/"+ putRet.key;
+            url = domain + "/" + putRet.key;
         } catch (QiniuException e) {
             e.printStackTrace();
             logger.error("[七牛上传异常]", e);

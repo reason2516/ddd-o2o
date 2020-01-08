@@ -1,0 +1,30 @@
+#server
+server:
+  port: 40001
+#eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://registry01:10001/eureka/,http://registry02:10002/eureka/
+    # 是否注册到eureka
+    register-with-eureka: false
+    # 是否拉取注册列表
+    fetch-registry: true
+spring:
+  application:
+    name: gateway-customer
+  profiles:
+    active: dev
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: false
+          lower-case-service-id: true
+      routes:
+        - id: api-customer
+          uri: lb://API-CUSTOMER
+          predicates:
+            - Path=/customer/**
+          filters:
+            - StripPrefix=1

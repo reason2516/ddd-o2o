@@ -10,20 +10,22 @@
         <module name="provider-user-service" />
         <module name="o2o-common" />
         <module name="api-customer" />
+        <module name="gateway-customer" />
         <module name="infra-upload" />
         <module name="provider-user-client" />
         <module name="infra-registry" />
-        <module name="serv-identity" />
         <module name="provider-user-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="identity-service" target="1.8" />
+      <module name="serv-identity" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-customer" options="-parameters" />
+      <module name="gateway-customer" options="-parameters" />
       <module name="infra-registry" options="-parameters" />
       <module name="infra-upload" options="-parameters" />
       <module name="o2o-common" options="-parameters" />

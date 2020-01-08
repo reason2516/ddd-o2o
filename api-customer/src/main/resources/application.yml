@@ -1,0 +1,43 @@
+#server
+server:
+  port: 30001
+#eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://registry01:10001/eureka/,http://registry02:10002/eureka/
+spring:
+  application:
+    name: api-customer
+  profiles:
+    active: dev
+  #jackson
+  jackson:
+    time-zone: Asia/Shanghai
+    serialization:
+      write-dates-as-timestamps: true
+  #quartz
+  quartz:
+    properties:
+      org.quartz.scheduler.instanceId: api-customer
+      org.quartz.threadPool.threadCount: 4
+      org.quartz.scheduler.batchTriggerAcquisitionMaxCount: 4
+#      org.quartz.jobStore.isClustered: false
+#ribbon
+provider-user-service:
+  ribbon:
+    MaxAutoRetriesNextServer: 0
+    OkToRetryOnAllOperations: false
+#actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+#custom
+test:
+  value: 1
+  value02:

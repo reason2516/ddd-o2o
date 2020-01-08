@@ -14,6 +14,7 @@
       <set>
         <option value="$PROJECT_DIR$/identity-service/pom.xml" />
         <option value="$PROJECT_DIR$/o2o-provider-use-rcenter/pom.xml" />
+        <option value="$PROJECT_DIR$/serv-identity/pom.xml" />
       </set>
     </option>
   </component>

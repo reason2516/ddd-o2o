@@ -24,7 +24,7 @@ public class DefaultQiNiuUploadServiceTest {
 
     @Test
     public void testUploadFile() {
-        File file = new File("/Users/xingshulin/Desktop/test.png");
+        File file = new File("/Users/wangmingxu/Desktop/test.png");
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/mm/dd");
         String date = sdf.format(new Date());
 

@@ -1,0 +1,6 @@
+eureka:
+  server:
+    # 关闭自我保护机制 （测试环境使用）
+    enable-replicated-request-compression: false
+    # 剔除无效服务时间间隔
+    eviction-interval-timer-in-ms: 50000

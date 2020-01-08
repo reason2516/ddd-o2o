@@ -1,0 +1,20 @@
+## server
+server:
+  port: 10001
+
+## spring
+spring:
+  application:
+    name: infra-registry
+  profiles:
+    active: dev
+
+## eureka
+eureka:
+#  instance:
+#    hostname: localhost
+  client:
+    # 允许在其他服务注册自己
+    register-with-eureka: true
+    # 是否检索其他服务
+    fetch-registry: true

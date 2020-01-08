@@ -1,0 +1,30 @@
+#server
+server:
+  port: 20001
+#eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://registry01:10001/eureka/,http://registry02:10002/eureka/
+#spring
+spring:
+  application:
+    name: provider-user-service
+  profiles:
+    active: dev
+  jackson:
+    time-zone: Asia/Shanghai
+    serialization:
+      write-dates-as-timestamps: true
+  datasource:
+    url: jdbc:mysql://mysql.local:33306/o2o_user?useUnicode=true&characterEncoding=utf-8&tinyInt1isBit=false&useSSL=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+#logging
+logging:
+  level:
+    org.hibernate.sql: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace

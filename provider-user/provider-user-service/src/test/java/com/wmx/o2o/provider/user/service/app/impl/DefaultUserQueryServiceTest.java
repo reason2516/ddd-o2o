@@ -1,6 +1,7 @@
 package com.wmx.o2o.provider.user.service.app.impl;
 
 import com.wmx.o2o.provider.user.service.app.UserQueryService;
+import com.wmx.o2o.provider.user.service.domain.user.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +16,7 @@ public class DefaultUserQueryServiceTest {
 
     @Test
     public void getUser() {
-        userQueryService.getUser("18810498066");
+        User user = userQueryService.getUser("18810498066");
     }
 
 

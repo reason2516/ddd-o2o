@@ -46,8 +46,8 @@ public class UserController {
                     UserDTO userDTO = new UserDTO();
                     BeanUtils.copyProperties(e, userDTO);
                     return userDTO;
-                }).orElse(null);
-
+                })
+                .orElse(null);
     }
 
     @GetMapping("/listUsers")

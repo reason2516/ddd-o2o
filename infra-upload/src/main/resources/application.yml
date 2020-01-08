@@ -1,0 +1,20 @@
+# server
+server:
+  port: 10021
+# spring
+spring:
+  application:
+    name: infra-upload
+  profiles:
+    active: dev
+  jackson:
+    time-zone: Asia/Shanghai
+    serialization:
+      write-dates-as-timestamps: true
+# qiniu
+qiniu:
+  config:
+    accesskey: uxZM8Z13nVlQ_Hd-EWe_mmVICMJlNOmZlPOtQrUM
+    secretkey: FlFujzIv0qHeTXxT0DxXUF2YmCi9G1eAst4JehXP
+    bucket: wmx-images
+    domain: http://wmx-images.enkeedu.com

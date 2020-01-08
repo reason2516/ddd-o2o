@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api-customer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/api-customer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway-customer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/infra-registry" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/infra-registry/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/infra-upload" charset="UTF-8" />
@@ -17,7 +18,5 @@
     <file url="file://$PROJECT_DIR$/provider-user/provider-user-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-user/provider-user-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-user/provider-user-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/serv-identity" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/serv-identity/src/main/java" charset="UTF-8" />
   </component>
 </project>

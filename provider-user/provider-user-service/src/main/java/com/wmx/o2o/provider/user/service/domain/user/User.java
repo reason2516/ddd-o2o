@@ -10,12 +10,14 @@ import lombok.Setter;
 import lombok.experimental.Accessors;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
 import java.util.Date;
 
-@Getter(AccessLevel.PROTECTED)
+@Getter(AccessLevel.PUBLIC)
 @Setter(AccessLevel.PROTECTED)
 @Accessors(chain = true)
 // jpa
@@ -54,6 +56,15 @@ public class User extends BaseDomainEntity {
     @Column(name = "last_login_time")
     private Date lastLoginTime;
 
+    @LastModifiedDate
+    @Column(name = "update_time")
+    private Date updateTime;
+
+    @CreatedDate
+    @Column(name = "create_time")
+    private Date createTime;
+
+
     /**
      * 注册
      *
@@ -61,6 +72,7 @@ public class User extends BaseDomainEntity {
      * @param password
      */
     public void registerByPhoneNumber(UserId id, String phoneNumber, String password) {
+
         setId(id);
         setPhoneNumber(phoneNumber);
         setPassword(password);
