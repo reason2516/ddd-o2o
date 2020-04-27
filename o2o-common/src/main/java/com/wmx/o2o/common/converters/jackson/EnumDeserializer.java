@@ -11,10 +11,10 @@ import java.io.IOException;
  * 枚举类逆解析
  */
 public class EnumDeserializer extends BeanDeserializerModifier {
+    @SuppressWarnings("all")
     @Override
     public JsonDeserializer<Enum> modifyEnumDeserializer(DeserializationConfig config, JavaType type, BeanDescription beanDesc, JsonDeserializer<?> deserializer) {
         return new JsonDeserializer<Enum>() {
-
             @SuppressWarnings("all")
             @Override
             public Enum deserialize(JsonParser p, DeserializationContext ctxt) throws IOException, JsonProcessingException {
@@ -26,7 +26,6 @@ public class EnumDeserializer extends BeanDeserializerModifier {
                         return enumConstant;
                     }
                 }
-
                 return null;
             }
         };

@@ -1,6 +1,10 @@
 #server
 server:
   port: 20001
+  servlet:
+    session:
+      cookie:
+        name: ddd_o2o_session_id
 #eureka
 eureka:
   client:
@@ -17,12 +21,18 @@ spring:
     serialization:
       write-dates-as-timestamps: true
   datasource:
-    url: jdbc:mysql://mysql.local:33306/o2o_user?useUnicode=true&characterEncoding=utf-8&tinyInt1isBit=false&useSSL=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://mysql.wmx.com:3306/o2o_user?useUnicode=true&characterEncoding=utf-8&tinyInt1isBit=false&useSSL=true&serverTimezone=Asia/Shanghai
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     show-sql: true
+  session:
+    store-type: redis
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
 #logging
 logging:
   level:

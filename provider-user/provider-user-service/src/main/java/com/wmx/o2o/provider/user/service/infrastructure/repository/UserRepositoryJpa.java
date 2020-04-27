@@ -4,13 +4,15 @@ import com.wmx.o2o.provider.user.service.domain.user.User;
 import com.wmx.o2o.provider.user.service.domain.user.UserId;
 import com.wmx.o2o.provider.user.service.domain.user.UserRepository;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 import java.util.Random;
 
 @Repository
-public interface UserRepositoryJpa extends UserRepository, JpaRepository<User, UserId> {
+public interface UserRepositoryJpa extends UserRepository, JpaRepository<User, UserId>, JpaSpecificationExecutor<User> {
+
     String UID_PREFIX = "UID";
 
     @Override

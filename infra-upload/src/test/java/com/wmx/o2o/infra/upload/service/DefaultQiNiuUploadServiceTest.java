@@ -15,15 +15,18 @@ import java.util.Date;
 public class DefaultQiNiuUploadServiceTest {
 
     @Autowired
-    private DefaultQiNiuUploadService qiNiuUploadService;
+    private DefaultQiNiuUploadService defaultQiNiuUploadService;
 
     @Test
     public void testUpToken() {
-        qiNiuUploadService.upToken();
+        defaultQiNiuUploadService.upToken();
     }
 
     @Test
     public void testUploadFile() {
+        // 图片旋转
+        // DEMO http://wmx-images.enkeedu.com/2020/25/05/1583418320298.png?imageMogr2/rotate/0
+        // 文档 https://developer.qiniu.com/dora/api/1270/the-advanced-treatment-of-images-imagemogr2#5
         File file = new File("/Users/wangmingxu/Desktop/test.png");
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy/mm/dd");
         String date = sdf.format(new Date());
@@ -31,7 +34,8 @@ public class DefaultQiNiuUploadServiceTest {
         String newFileName = System.currentTimeMillis() + file.getPath().substring(file.getPath().lastIndexOf("."));
 
         String key = date + "/" + newFileName;
-        String s = qiNiuUploadService.uploadFile(file, key);
+        String s = defaultQiNiuUploadService.uploadFile(file, key);
         System.out.println(s);
     }
 }
+

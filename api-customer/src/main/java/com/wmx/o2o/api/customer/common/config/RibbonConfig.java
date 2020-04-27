@@ -1,12 +1,15 @@
 package com.wmx.o2o.api.customer.common.config;
 
+import feign.RequestInterceptor;
+import feign.RequestTemplate;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class RibbonConfig {
-//    @Bean
-//    @LoadBalanced
-//    public RestTemplate restTemplate() {
-//        return new RestTemplate();
-//    }
+public class RibbonConfig implements RequestInterceptor {
+
+
+    @Override
+    public void apply(RequestTemplate template) {
+    }
 }
+

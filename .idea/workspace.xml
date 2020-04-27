@@ -2,54 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd73338-0257-4371-9fe7-81a327aed3f5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/UserRestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/service/UserQueryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.resource/o2o_identity.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api-customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/ApiCustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/ApiCustomerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/common/config/RibbonBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/common/config/RibbonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/ApiCustomerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/ApiCustomerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/common/config/RibbonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/common/config/RibbonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/common/enums/UserStatus.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/quartz/JobDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/quartz/JobDetailConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/quartz/JobHandlerDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/IdentityUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/dto/UserDO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/Identity/impl/IdentityUserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/resources/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-customer/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra-registry/src/main/resources/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra-registry/src/main/resources/application-registry01.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra-registry/src/main/resources/application-registry02.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra-registry/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra-upload/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/infra-upload/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra-upload/src/main/java/com/wmx/o2o/infra/upload/InfraUploadApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/infra-upload/src/main/java/com/wmx/o2o/infra/upload/InfraUploadApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra-upload/src/main/java/com/wmx/o2o/infra/upload/service/DefaultQiNiuUploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/infra-upload/src/main/java/com/wmx/o2o/infra/upload/service/DefaultQiNiuUploadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra-upload/src/main/resources/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infra-upload/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-customer/src/main/java/com/wmx/o2o/api/customer/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-customer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-customer/src/main/java/com/wmx/o2o/gateway/customer/GatewayCustomerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-customer/src/main/java/com/wmx/o2o/gateway/customer/GatewayCustomerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-customer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-customer/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infra-upload/src/test/java/com/wmx/o2o/infra/upload/service/DefaultQiNiuUploadServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/infra-upload/src/test/java/com/wmx/o2o/infra/upload/service/DefaultQiNiuUploadServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o2o-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/o2o-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/jackson/EnumDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/jackson/EnumDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/jackson/EnumSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/o2o-common/src/main/java/com/wmx/o2o/common/converters/jackson/EnumSerializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/api/UserRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/api/UserRestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/api/UserRestApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/beans/command/RoleCreateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/dto/cmd/RoleCreateCO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/beans/command/UserLoginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/dto/cmd/UserLoginCO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/beans/command/UserRegisterCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/dto/cmd/UserRegisterCO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/beans/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/dto/vo/UserVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/beans/dto/UserRegisterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/dto/vo/UserRegisterVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/beans/qo/ListUsersQO.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user/client/dto/qo/ListUsersQO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/ProviderUserApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/UserQueryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserQueryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/app/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserQueryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserQueryServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRegisterDomainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/domain/user/UserRegisterDomainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/facde/rest/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/handlers/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/facde/rest/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/UserRepositoryJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/java/com/wmx/o2o/provider/user/service/infrastructure/repository/UserRepositoryJpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserQueryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/UserQueryServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/domain/user/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/domain/user/UserRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/handlers/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/handlers/controller/UserControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/ServIdentityApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/common/advcice/DateResponseBodyAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/common/advcice/DefaultDateToNull.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/dao/entity/UserDO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/infrastructure/dao/jpa/UserRepositoryJpa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/java/com/wmx/o2o/serv/identity/resource/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/resources/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/serv-identity/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/handlers/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/facde/rest/UserControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,8 +94,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
-        <option value="JUnit4 Test Class" />
         <option value="spring-beans.schema" />
+        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -152,8 +147,10 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/provider-user/provider-user-client/src/main/java/com/wmx/o2o/provider/user" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway-customer/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway-customer/src/main/java/com/wmx/o2o/gateway/customer/config" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -161,15 +158,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wmx.o2o.provider.user.service.app.service" />
+      <recent name="com.wmx.o2o.provider.user.client.dto.vo" />
+      <recent name="com.wmx.o2o.api.customer.common.config" />
       <recent name="com.wmx.o2o.provider.user.service.domain.role" />
       <recent name="com.wmx.o2o.provider.user.service.domain.user" />
-      <recent name="com.wmx.o2o.provider.user.service.app" />
-      <recent name="com.wmx.o2o.provider.user.service.infrastructure.common" />
-      <recent name="com.wmx.o2o.provider.user.client.dto.command" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.wmx.o2o.api.customer.service" />
       <recent name="com.wmx.o2o.provider.user.service.handlers.controller" />
       <recent name="com.wmx.o2o.provider.user.service.app.impl" />
       <recent name="com.wmx.o2o.provider.user.service.domain.user" />
@@ -182,17 +183,21 @@
       <recent name="com.wmx.o2o.api.customer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gateway-customer/src/main/java/com/wmx/o2o/gateway/customer/config" />
       <recent name="$PROJECT_DIR$/gateway-customer/src/main/resources" />
       <recent name="$PROJECT_DIR$/provider-user/provider-user-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/api-customer/src/main/resources" />
       <recent name="$PROJECT_DIR$/infra-upload/src/main/resources" />
-      <recent name="$PROJECT_DIR$/infra-registry/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wmx.o2o.gateway.customer.service" />
       <recent name="com.wmx.o2o.common.enums" />
       <recent name="com.wmx.o2o.common.converters.jackson" />
       <recent name="com.wmx.o2o.api.customer" />
       <recent name="com.wmx.o2o.api.customer.service.Identity.dto" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.wmx.o2o.common.service.ServiceNameConst" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\project\project_java\ddd-o2o\infra-registry\src\main\resources" />
@@ -205,9 +210,26 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiCustomerApp-30002">
+  <component name="RunManager" selected="JUnit.UserServiceTest.getGet">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DefaultQiNiuUploadServiceTest.testUpToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="infra-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wmx.o2o.infra.upload.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wmx.o2o.infra.upload.service" />
+      <option name="MAIN_CLASS_NAME" value="com.wmx.o2o.infra.upload.service.DefaultQiNiuUploadServiceTest" />
+      <option name="METHOD_NAME" value="testUpToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -229,50 +251,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultUserQueryServiceTest.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRepositoryTest.saveJdbcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="provider-user-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wmx.o2o.provider.user.service.app.impl.*" />
+          <option name="PATTERN" value="com.wmx.o2o.provider.user.service.domain.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wmx.o2o.provider.user.service.app.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.wmx.o2o.provider.user.service.app.impl.DefaultUserQueryServiceTest" />
-      <option name="METHOD_NAME" value="getUser" />
+      <option name="PACKAGE_NAME" value="com.wmx.o2o.provider.user.service.domain.user" />
+      <option name="MAIN_CLASS_NAME" value="com.wmx.o2o.provider.user.service.domain.user.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="saveJdbcTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="provider-user-service" />
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-customer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wmx.o2o.provider.user.service.domain.user.*" />
+          <option name="PATTERN" value="com.wmx.o2o.api.customer.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wmx.o2o.provider.user.service.domain.user" />
-      <option name="MAIN_CLASS_NAME" value="com.wmx.o2o.provider.user.service.domain.user.UserRepositoryTest" />
+      <option name="PACKAGE_NAME" value="com.wmx.o2o.api.customer.service" />
+      <option name="MAIN_CLASS_NAME" value="com.wmx.o2o.api.customer.service.UserServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="provider-user-service" />
+    <configuration name="UserServiceTest.getGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-customer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wmx.o2o.provider.user.service.domain.user.*" />
+          <option name="PATTERN" value="com.wmx.o2o.api.customer.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.wmx.o2o.provider.user.service.domain.user" />
-      <option name="MAIN_CLASS_NAME" value="com.wmx.o2o.provider.user.service.domain.user.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="saveTest" />
+      <option name="PACKAGE_NAME" value="com.wmx.o2o.api.customer.service" />
+      <option name="MAIN_CLASS_NAME" value="com.wmx.o2o.api.customer.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="getGet" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.testReg" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="api-customer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wmx.o2o.api.customer.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wmx.o2o.api.customer.service" />
+      <option name="MAIN_CLASS_NAME" value="com.wmx.o2o.api.customer.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="testReg" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -286,7 +325,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiCustomerApp-30001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ApiCustomerApp-30001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="group01">
       <module name="api-customer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wmx.o2o.api.customer.ApiCustomerApp" />
       <option name="VM_PARAMETERS" value="-Dserver.port=30001" />
@@ -297,7 +336,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiCustomerApp-30002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ApiCustomerApp-30002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="group02">
       <module name="api-customer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wmx.o2o.api.customer.ApiCustomerApp" />
       <option name="VM_PARAMETERS" value="-Dserver.port=30002" />
@@ -306,7 +345,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayCustomerApp-40001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="GatewayCustomerApp-40001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="group01">
       <module name="gateway-customer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wmx.o2o.gateway.customer.GatewayCustomerApp" />
       <option name="VM_PARAMETERS" value="-Dserver.port=40001" />
@@ -315,7 +354,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayCustomerApp-40002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="GatewayCustomerApp-40002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="group02">
       <module name="gateway-customer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wmx.o2o.gateway.customer.GatewayCustomerApp" />
       <option name="VM_PARAMETERS" value="-Dserver.port=40002" />
@@ -324,7 +363,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfraRegistryApp-10001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="InfraRegistryApp-10001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="group01">
       <module name="infra-registry" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wmx.o2o.infra.registry.InfraRegistryApplication" />
       <option name="VM_PARAMETERS" value="-Dserver.port=10001 -Dspring.profiles.active=dev,registry01" />
@@ -335,7 +374,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfraRegistryApp-10002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="InfraRegistryApp-10002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="group02">
       <module name="infra-registry" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wmx.o2o.infra.registry.InfraRegistryApplication" />
       <option name="VM_PARAMETERS" value="-Dserver.port=10002 -Dspring.profiles.active=dev,registry02" />
@@ -346,7 +385,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfraUploadApp-10021" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="InfraUploadApp-10021" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="group01">
       <module name="infra-upload" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wmx.o2o.infra.upload.InfraUploadApp" />
       <option name="VM_PARAMETERS" value="-Dserver.port=10021 -Dspring.profiles.active=dev" />
@@ -357,7 +396,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderUserApp-20001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ProviderUserApp-20001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="group01">
       <module name="provider-user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wmx.o2o.provider.user.service.ProviderUserApp" />
       <option name="VM_PARAMETERS" value="-Dserver.port=20001" />
@@ -366,7 +405,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderUserApp-20002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ProviderUserApp-20002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="group02">
       <module name="provider-user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wmx.o2o.provider.user.service.ProviderUserApp" />
       <option name="VM_PARAMETERS" value="-Dserver.port=20002" />
@@ -385,27 +424,29 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserRepositoryTest.saveTest" />
-      <item itemvalue="JUnit.DefaultUserQueryServiceTest.getUser" />
+      <item itemvalue="JUnit.UserServiceTest.testReg" />
       <item itemvalue="JUnit.DefaultQiNiuUploadServiceTest.testUploadFile" />
-      <item itemvalue="JUnit.UserRepositoryTest" />
+      <item itemvalue="JUnit.UserRepositoryTest.saveJdbcTest" />
+      <item itemvalue="JUnit.DefaultQiNiuUploadServiceTest.testUpToken" />
       <item itemvalue="Spring Boot.InfraRegistryApp-10001" />
-      <item itemvalue="Spring Boot.InfraRegistryApp-10002" />
       <item itemvalue="Spring Boot.InfraUploadApp-10021" />
       <item itemvalue="Spring Boot.ProviderUserApp-20001" />
-      <item itemvalue="Spring Boot.ProviderUserApp-20002" />
       <item itemvalue="Spring Boot.ApiCustomerApp-30001" />
+      <item itemvalue="Spring Boot.GatewayCustomerApp-40001" />
+      <item itemvalue="Spring Boot.InfraRegistryApp-10002" />
+      <item itemvalue="Spring Boot.ProviderUserApp-20002" />
       <item itemvalue="Spring Boot.ApiCustomerApp-30002" />
       <item itemvalue="Spring Boot.GatewayCustomerApp-40002" />
-      <item itemvalue="Spring Boot.GatewayCustomerApp-40001" />
+      <item itemvalue="JUnit.UserServiceTest" />
+      <item itemvalue="JUnit.UserServiceTest.getGet" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.GatewayCustomerApp-40001" />
-        <item itemvalue="JUnit.UserRepositoryTest.saveTest" />
-        <item itemvalue="JUnit.DefaultUserQueryServiceTest.getUser" />
-        <item itemvalue="JUnit.UserRepositoryTest" />
+        <item itemvalue="JUnit.UserServiceTest.getGet" />
+        <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.DefaultQiNiuUploadServiceTest.testUploadFile" />
+        <item itemvalue="JUnit.DefaultQiNiuUploadServiceTest.testUpToken" />
+        <item itemvalue="JUnit.UserRepositoryTest.saveJdbcTest" />
       </list>
     </recent_temporary>
   </component>
@@ -413,11 +454,23 @@
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.18710053" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="group01" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -428,6 +481,12 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="group02" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -472,7 +531,27 @@
       <workItem from="1576945521046" duration="10351000" />
       <workItem from="1577429024532" duration="2691000" />
       <workItem from="1577692112345" duration="11967000" />
-      <workItem from="1578282258674" duration="29526000" />
+      <workItem from="1578282258674" duration="40629000" />
+      <workItem from="1578625360671" duration="2987000" />
+      <workItem from="1578884477970" duration="235000" />
+      <workItem from="1579068695221" duration="57000" />
+      <workItem from="1579068853578" duration="215000" />
+      <workItem from="1579076494085" duration="325000" />
+      <workItem from="1579355705662" duration="286000" />
+      <workItem from="1579661941526" duration="3000" />
+      <workItem from="1581911890224" duration="1659000" />
+      <workItem from="1582628527829" duration="4818000" />
+      <workItem from="1583422366700" duration="235000" />
+      <workItem from="1583479981487" duration="2826000" />
+      <workItem from="1583512854554" duration="8000" />
+      <workItem from="1584582826974" duration="718000" />
+      <workItem from="1584606951909" duration="597000" />
+      <workItem from="1584674329738" duration="598000" />
+      <workItem from="1586239899263" duration="1018000" />
+      <workItem from="1586345494389" duration="1617000" />
+      <workItem from="1586861228781" duration="38135000" />
+      <workItem from="1587314141228" duration="576000" />
+      <workItem from="1587365253682" duration="31427000" />
     </task>
     <servers />
   </component>
@@ -493,135 +572,145 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="512" y="64" key="#GatewayCustomerApp-40001" timestamp="1578478590625">
+    <state x="496" y="237" key="#Project_Structure" timestamp="1587900426914">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="512" y="64" key="#GatewayCustomerApp-40001/0.23.1792.1097@0.23.1792.1097" timestamp="1578478590625" />
-    <state x="396" y="156" key="#Inspections" timestamp="1576838993791">
+    <state x="496" y="237" key="#Project_Structure/0.23.1792.1097@0.23.1792.1097" timestamp="1587900426914" />
+    <state x="360" y="233" width="1071" height="880" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587900738120">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="396" y="156" key="#Inspections/0.23.1792.1097@0.23.1792.1097" timestamp="1576838993791" />
-    <state x="496" y="237" key="#Project_Structure" timestamp="1578394992342">
+    <state x="360" y="233" width="1071" height="880" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1587900738120" />
+    <state x="665" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1587959558659">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="237" key="#Project_Structure/0.23.1792.1097@0.23.1792.1097" timestamp="1578394992342" />
-    <state x="512" y="64" key="#UserApplication" timestamp="1578391934439">
+    <state x="665" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1587041277568" />
+    <state x="665" y="222" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1587959558659" />
+    <state x="612" y="288" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1587972892315">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="512" y="64" key="#UserApplication/0.23.1792.1097@0.23.1792.1097" timestamp="1578391934439" />
-    <state x="360" y="233" width="1071" height="880" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578480129850">
+    <state x="612" y="288" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1587972892315" />
+    <state x="457" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587969166426">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="360" y="233" width="1071" height="880" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1578480129850" />
-    <state x="665" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1578471700909">
+    <state x="457" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1587969166426" />
+    <state x="818" y="331" width="419" height="480" key="#xdebugger.XInspectDialog" timestamp="1587914914882">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="665" y="222" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1578471700909" />
-    <state x="550" y="331" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1577093869627">
+    <state x="818" y="331" width="419" height="480" key="#xdebugger.XInspectDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1587914914882" />
+    <state x="659" y="282" key="#xdebugger.evaluate" timestamp="1587960015358">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="550" y="331" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1577093869627" />
-    <state x="0" y="23" width="558" height="1097" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578472605862">
+    <state x="659" y="282" key="#xdebugger.evaluate/0.23.1792.1097@0.23.1792.1097" timestamp="1587960015358" />
+    <state width="1398" height="429" key="GridCell.Tab.0.bottom" timestamp="1587973124420">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="0" y="23" width="558" height="1097" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1578472605862" />
-    <state width="1204" height="430" key="GridCell.Tab.0.bottom" timestamp="1578480198629">
+    <state width="1750" height="389" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1587048210559" />
+    <state width="1398" height="429" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1587973124420" />
+    <state width="1398" height="429" key="GridCell.Tab.0.center" timestamp="1587973124419">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1204" height="430" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1578480198629" />
-    <state width="1204" height="430" key="GridCell.Tab.0.center" timestamp="1578480198628">
+    <state width="1750" height="389" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1587048210558" />
+    <state width="1398" height="429" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1587973124419" />
+    <state width="1398" height="429" key="GridCell.Tab.0.left" timestamp="1587973124418">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1204" height="430" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1578480198628" />
-    <state width="1204" height="430" key="GridCell.Tab.0.left" timestamp="1578480198627">
+    <state width="1750" height="389" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1587048210557" />
+    <state width="1398" height="429" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1587973124418" />
+    <state width="1398" height="429" key="GridCell.Tab.0.right" timestamp="1587973124419">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1204" height="430" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1578480198627" />
-    <state width="1204" height="430" key="GridCell.Tab.0.right" timestamp="1578480198628">
+    <state width="1750" height="389" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1587048210558" />
+    <state width="1398" height="429" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1587973124419" />
+    <state width="1398" height="429" key="GridCell.Tab.1.bottom" timestamp="1587973124421">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1204" height="430" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1578480198628" />
-    <state width="1204" height="430" key="GridCell.Tab.1.bottom" timestamp="1578480198630">
+    <state width="1750" height="389" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1587048210561" />
+    <state width="1398" height="429" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1587973124421" />
+    <state width="1398" height="429" key="GridCell.Tab.1.center" timestamp="1587973124420">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1204" height="430" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1578480198630" />
-    <state width="1204" height="430" key="GridCell.Tab.1.center" timestamp="1578480198629">
+    <state width="1750" height="389" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1587048210560" />
+    <state width="1398" height="429" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1587973124420" />
+    <state width="1398" height="429" key="GridCell.Tab.1.left" timestamp="1587973124420">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1204" height="430" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1578480198629" />
-    <state width="1204" height="430" key="GridCell.Tab.1.left" timestamp="1578480198629">
+    <state width="1750" height="389" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1587048210559" />
+    <state width="1398" height="429" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1587973124420" />
+    <state width="1398" height="429" key="GridCell.Tab.1.right" timestamp="1587973124421">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1204" height="430" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1578480198629" />
-    <state width="1204" height="430" key="GridCell.Tab.1.right" timestamp="1578480198629">
+    <state width="1750" height="389" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1587048210560" />
+    <state width="1398" height="429" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1587973124421" />
+    <state width="1398" height="429" key="GridCell.Tab.2.bottom" timestamp="1587957866639">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1204" height="430" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1578480198629" />
-    <state width="1204" height="430" key="GridCell.Tab.2.bottom" timestamp="1578470891833">
+    <state width="1398" height="429" key="GridCell.Tab.2.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1587957866639" />
+    <state width="1398" height="429" key="GridCell.Tab.2.center" timestamp="1587957866638">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1204" height="430" key="GridCell.Tab.2.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1578470891833" />
-    <state width="1204" height="430" key="GridCell.Tab.2.center" timestamp="1578470891833">
+    <state width="1398" height="429" key="GridCell.Tab.2.center/0.23.1792.1097@0.23.1792.1097" timestamp="1587957866638" />
+    <state width="1398" height="429" key="GridCell.Tab.2.left" timestamp="1587957866638">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1204" height="430" key="GridCell.Tab.2.center/0.23.1792.1097@0.23.1792.1097" timestamp="1578470891833" />
-    <state width="1204" height="430" key="GridCell.Tab.2.left" timestamp="1578470891833">
+    <state width="1398" height="429" key="GridCell.Tab.2.left/0.23.1792.1097@0.23.1792.1097" timestamp="1587957866638" />
+    <state width="1398" height="429" key="GridCell.Tab.2.right" timestamp="1587957866638">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1204" height="430" key="GridCell.Tab.2.left/0.23.1792.1097@0.23.1792.1097" timestamp="1578470891833" />
-    <state width="1204" height="430" key="GridCell.Tab.2.right" timestamp="1578470891833">
+    <state width="1398" height="429" key="GridCell.Tab.2.right/0.23.1792.1097@0.23.1792.1097" timestamp="1587957866638" />
+    <state x="558" y="248" width="681" height="655" key="StructurePopup" timestamp="1587969485453">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1204" height="430" key="GridCell.Tab.2.right/0.23.1792.1097@0.23.1792.1097" timestamp="1578470891833" />
-    <state x="296" y="123" key="SettingsEditor" timestamp="1578392412517">
+    <state x="558" y="230" width="681" height="669" key="StructurePopup/0.0.1792.1120@0.0.1792.1120" timestamp="1587041274502" />
+    <state x="558" y="248" width="681" height="655" key="StructurePopup/0.23.1792.1097@0.23.1792.1097" timestamp="1587969485453" />
+    <state width="663" height="614" key="SwitcherDM" timestamp="1587973866822">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="296" y="123" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1578392412517" />
-    <state x="558" y="248" width="681" height="655" key="StructurePopup" timestamp="1578453132744">
+    <state width="663" height="627" key="SwitcherDM/0.0.1792.1120@0.0.1792.1120" timestamp="1587048082816" />
+    <state width="663" height="614" key="SwitcherDM/0.23.1792.1097@0.23.1792.1097" timestamp="1587973866822" />
+    <state x="629" y="309" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587014646513">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="629" y="309" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1587014646513" />
+    <state x="634" y="331" key="extract.method.dialog" timestamp="1587053711874">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="558" y="248" width="681" height="655" key="StructurePopup/0.23.1792.1097@0.23.1792.1097" timestamp="1578453132744" />
-    <state width="663" height="614" key="SwitcherDM" timestamp="1578476155851">
+    <state x="634" y="331" key="extract.method.dialog/0.23.1792.1097@0.23.1792.1097" timestamp="1587053711874" />
+    <state x="554" y="333" width="849" height="540" key="find.popup" timestamp="1586790463119">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="663" height="614" key="SwitcherDM/0.23.1792.1097@0.23.1792.1097" timestamp="1578476155851" />
-    <state x="559" y="280" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577444668105">
+    <state x="554" y="333" width="849" height="540" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1586790463119" />
+    <state x="561" y="265" key="run.anything.popup" timestamp="1587035171239">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="265" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1587035171239" />
+    <state x="477" y="66" width="838" height="1054" key="search.everywhere.popup" timestamp="1587972992726">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="559" y="280" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1577444668105" />
-    <state x="554" y="333" width="849" height="476" key="find.popup" timestamp="1577442860015">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="554" y="333" width="849" height="476" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1577442860015" />
-    <state x="739" y="404" width="313" height="349" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1577444791300">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="739" y="404" width="313" height="349" key="jetbrains.javascript.buildTools.run-task-popup/0.23.1792.1097@0.23.1792.1097" timestamp="1577444791300" />
-    <state x="273" y="269" key="new project wizard" timestamp="1578474098296">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="273" y="269" key="new project wizard/0.23.1792.1097@0.23.1792.1097" timestamp="1578474098296" />
-    <state x="457" y="228" width="875" height="663" key="recent.locations.popup" timestamp="1577091685639">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="457" y="228" width="875" height="663" key="recent.locations.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1577091685639" />
-    <state x="477" y="88" width="838" height="1032" key="search.everywhere.popup" timestamp="1578471779428">
-      <screen x="0" y="23" width="1792" height="1097" />
-    </state>
-    <state x="477" y="88" width="838" height="1032" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1578471779428" />
+    <state x="477" y="66" width="838" height="1054" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1587040461068" />
+    <state x="477" y="66" width="838" height="1054" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1587972992726" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/handlers/controller/UserControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/facde/rest/UserControllerTest.java</url>
           <line>25</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/impl/DefaultUserQueryServiceTest.java</url>
+          <url>file://$PROJECT_DIR$/provider-user/provider-user-service/src/test/java/com/wmx/o2o/provider/user/service/app/UserQueryServiceTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/gateway-customer/src/main/java/com/wmx/o2o/gateway/customer/filter/AuthGatewayFilterFactory.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.16/mysql-connector-java-8.0.16-sources.jar!/com/mysql/jdbc/Driver.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

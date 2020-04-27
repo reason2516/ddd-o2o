@@ -14,10 +14,11 @@
 
 
     <dependencies>
-        <!--web-->
+        <!--json-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-json</artifactId>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

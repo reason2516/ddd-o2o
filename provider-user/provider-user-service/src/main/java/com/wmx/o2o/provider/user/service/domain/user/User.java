@@ -76,5 +76,6 @@ public class User extends BaseDomainEntity {
         setId(id);
         setPhoneNumber(phoneNumber);
         setPassword(password);
+        setRegisterTime(new Date());
     }
 }

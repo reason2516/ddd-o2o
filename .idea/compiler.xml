@@ -8,12 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="provider-user-service" />
-        <module name="o2o-common" />
         <module name="api-customer" />
         <module name="gateway-customer" />
         <module name="infra-upload" />
         <module name="provider-user-client" />
         <module name="infra-registry" />
+        <module name="o2o-common" />
         <module name="provider-user-common" />
       </profile>
     </annotationProcessing>

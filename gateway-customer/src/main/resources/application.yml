@@ -22,9 +22,19 @@ spring:
           enabled: false
           lower-case-service-id: true
       routes:
-        - id: api-customer
+        - id: api-customer-login
           uri: lb://API-CUSTOMER
           predicates:
             - Path=/customer/**
           filters:
             - StripPrefix=1
+            - Auth=true
+          order: 9
+
+        - id: api-customer
+          uri: lb://API-CUSTOMER
+          predicates:
+            - Path=/customer/test/**
+          filters:
+            - StripPrefix=1
+          order: 1

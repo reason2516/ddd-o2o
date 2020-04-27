@@ -1,25 +1,31 @@
 package com.wmx.o2o.api.customer.controller;
 
-import com.wmx.o2o.api.customer.service.UserService;
-import com.wmx.o2o.provider.user.client.beans.dto.UserDTO;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.wmx.o2o.provider.user.client.UserRestClient;
+import com.wmx.o2o.provider.user.client.dto.cmd.UserRegisterCO;
+import com.wmx.o2o.provider.user.client.dto.vo.UserRegisterVO;
+import com.wmx.o2o.provider.user.client.dto.vo.UserVO;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/user")
 public class UserController {
 
-    private final UserService userService;
 
-    public UserController(UserService userService) {
-        this.userService = userService;
+    private final UserRestClient userRestClient;
+
+    public UserController(UserRestClient userRestClient) {
+        this.userRestClient = userRestClient;
     }
 
 
     @GetMapping("/{id}")
-    public UserDTO get(@PathVariable String id) {
-        return userService.getUser(id);
+    public UserVO get(@PathVariable String id) {
+        return userRestClient.getUser(id);
+    }
+
+    @PostMapping
+    public UserRegisterVO register(@Validated @RequestBody UserRegisterCO co) {
+        return userRestClient.register(co);
     }
 }

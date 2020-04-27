@@ -9,8 +9,11 @@ import java.io.IOException;
 /**
  * 枚举类解析
  */
+@SuppressWarnings("all")
 public class EnumSerializer extends StdScalarSerializer<Enum> {
 
+
+    private static final long serialVersionUID = -1619265164997062015L;
 
     public EnumSerializer(Class<Enum> t) {
         super(t);
@@ -22,6 +25,7 @@ public class EnumSerializer extends StdScalarSerializer<Enum> {
 
     @Override
     public void serialize(Enum value, JsonGenerator gen, SerializerProvider provider) throws IOException {
+
         gen.writeString(value.name().toLowerCase());
     }
 }
